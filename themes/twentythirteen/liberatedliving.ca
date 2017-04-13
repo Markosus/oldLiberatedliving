@@ -1,0 +1,8 @@
+<VirtualHost *:80>
+	ServerAdmin susan.stephens@liberatedliving.ca
+	ServerName liberatedliving.ca
+	ServerAlias www.liberatedliving.ca
+	DocumentRoot /srv/www/liberatedliving.ca/public_html
+	ErrorLog /srv/www/liberatedliving.ca/logs/error.log
+	CustomLog /srv/www/liberatedliving.ca/logs/access.log combined
+</VirtualHost>

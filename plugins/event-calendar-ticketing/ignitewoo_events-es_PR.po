@@ -1,0 +1,4070 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Calendar & Ticketing v2.2.26\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-03-31 16:42:58+0000\n"
+"Last-Translator: admin <team@ignitewoo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: PUERTO RICO\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: event-calendar-ticketing.php:849
+#@ ignitewoo_events
+msgid "Loading..."
+msgstr ""
+
+#: event-calendar-ticketing.php:935
+#@ ignitewoo_events
+msgid "There was an error while fetching events."
+msgstr ""
+
+#: event-calendar-ticketing.php:981
+#@ ignitewoo_events
+msgid "Support"
+msgstr ""
+
+#: event-calendar-ticketing.php:983
+#@ default
+msgid "View Add-ons / Upgrades"
+msgstr ""
+
+#: includes/countries.php:17
+#@ ignitewoo_events
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/countries.php:18
+#@ ignitewoo_events
+msgid "&#197;land Islands"
+msgstr ""
+
+#: includes/countries.php:19
+#@ ignitewoo_events
+msgid "Albania"
+msgstr ""
+
+#: includes/countries.php:20
+#@ ignitewoo_events
+msgid "Algeria"
+msgstr ""
+
+#: includes/countries.php:21
+#@ ignitewoo_events
+msgid "Andorra"
+msgstr ""
+
+#: includes/countries.php:22
+#@ ignitewoo_events
+msgid "Angola"
+msgstr ""
+
+#: includes/countries.php:23
+#@ ignitewoo_events
+msgid "Anguilla"
+msgstr ""
+
+#: includes/countries.php:24
+#@ ignitewoo_events
+msgid "Antarctica"
+msgstr ""
+
+#: includes/countries.php:25
+#@ ignitewoo_events
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: includes/countries.php:26
+#@ ignitewoo_events
+msgid "Argentina"
+msgstr ""
+
+#: includes/countries.php:27
+#@ ignitewoo_events
+msgid "Armenia"
+msgstr ""
+
+#: includes/countries.php:28
+#@ ignitewoo_events
+msgid "Aruba"
+msgstr ""
+
+#: includes/countries.php:29
+#@ ignitewoo_events
+msgid "Australia"
+msgstr ""
+
+#: includes/countries.php:30
+#@ ignitewoo_events
+msgid "Austria"
+msgstr ""
+
+#: includes/countries.php:31
+#@ ignitewoo_events
+msgid "Azerbaijan"
+msgstr ""
+
+#: includes/countries.php:32
+#@ ignitewoo_events
+msgid "Bahamas"
+msgstr ""
+
+#: includes/countries.php:33
+#@ ignitewoo_events
+msgid "Bahrain"
+msgstr ""
+
+#: includes/countries.php:34
+#@ ignitewoo_events
+msgid "Bangladesh"
+msgstr ""
+
+#: includes/countries.php:35
+#@ ignitewoo_events
+msgid "Barbados"
+msgstr ""
+
+#: includes/countries.php:36
+#@ ignitewoo_events
+msgid "Belarus"
+msgstr ""
+
+#: includes/countries.php:37
+#@ ignitewoo_events
+msgid "Belgium"
+msgstr ""
+
+#: includes/countries.php:38
+#@ ignitewoo_events
+msgid "Belau"
+msgstr ""
+
+#: includes/countries.php:39
+#@ ignitewoo_events
+msgid "Belize"
+msgstr ""
+
+#: includes/countries.php:40
+#@ ignitewoo_events
+msgid "Benin"
+msgstr ""
+
+#: includes/countries.php:41
+#@ ignitewoo_events
+msgid "Bermuda"
+msgstr ""
+
+#: includes/countries.php:42
+#@ ignitewoo_events
+msgid "Bhutan"
+msgstr ""
+
+#: includes/countries.php:43
+#@ ignitewoo_events
+msgid "Bolivia"
+msgstr ""
+
+#: includes/countries.php:44
+#@ ignitewoo_events
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+#: includes/countries.php:45
+#@ ignitewoo_events
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: includes/countries.php:46
+#@ ignitewoo_events
+msgid "Botswana"
+msgstr ""
+
+#: includes/countries.php:47
+#@ ignitewoo_events
+msgid "Bouvet Island"
+msgstr ""
+
+#: includes/countries.php:48
+#@ ignitewoo_events
+msgid "Brazil"
+msgstr ""
+
+#: includes/countries.php:49
+#@ ignitewoo_events
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: includes/countries.php:50
+#@ ignitewoo_events
+msgid "British Virgin Islands"
+msgstr ""
+
+#: includes/countries.php:51
+#@ ignitewoo_events
+msgid "Brunei"
+msgstr ""
+
+#: includes/countries.php:52
+#@ ignitewoo_events
+msgid "Bulgaria"
+msgstr ""
+
+#: includes/countries.php:53
+#@ ignitewoo_events
+msgid "Burkina Faso"
+msgstr ""
+
+#: includes/countries.php:54
+#@ ignitewoo_events
+msgid "Burundi"
+msgstr ""
+
+#: includes/countries.php:55
+#@ ignitewoo_events
+msgid "Cambodia"
+msgstr ""
+
+#: includes/countries.php:56
+#@ ignitewoo_events
+msgid "Cameroon"
+msgstr ""
+
+#: includes/countries.php:57
+#@ ignitewoo_events
+msgid "Canada"
+msgstr ""
+
+#: includes/countries.php:58
+#@ ignitewoo_events
+msgid "Cape Verde"
+msgstr ""
+
+#: includes/countries.php:59
+#@ ignitewoo_events
+msgid "Cayman Islands"
+msgstr ""
+
+#: includes/countries.php:60
+#@ ignitewoo_events
+msgid "Central African Republic"
+msgstr ""
+
+#: includes/countries.php:61
+#@ ignitewoo_events
+msgid "Chad"
+msgstr ""
+
+#: includes/countries.php:62
+#@ ignitewoo_events
+msgid "Chile"
+msgstr ""
+
+#: includes/countries.php:63
+#@ ignitewoo_events
+msgid "China"
+msgstr ""
+
+#: includes/countries.php:64
+#@ ignitewoo_events
+msgid "Christmas Island"
+msgstr ""
+
+#: includes/countries.php:65
+#@ ignitewoo_events
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: includes/countries.php:66
+#@ ignitewoo_events
+msgid "Colombia"
+msgstr ""
+
+#: includes/countries.php:67
+#@ ignitewoo_events
+msgid "Comoros"
+msgstr ""
+
+#: includes/countries.php:68
+#@ ignitewoo_events
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: includes/countries.php:69
+#@ ignitewoo_events
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+#: includes/countries.php:70
+#@ ignitewoo_events
+msgid "Cook Islands"
+msgstr ""
+
+#: includes/countries.php:71
+#@ ignitewoo_events
+msgid "Costa Rica"
+msgstr ""
+
+#: includes/countries.php:72
+#@ ignitewoo_events
+msgid "Croatia"
+msgstr ""
+
+#: includes/countries.php:73
+#@ ignitewoo_events
+msgid "Cuba"
+msgstr ""
+
+#: includes/countries.php:74
+#@ ignitewoo_events
+msgid "Cura&Ccedil;ao"
+msgstr ""
+
+#: includes/countries.php:75
+#@ ignitewoo_events
+msgid "Cyprus"
+msgstr ""
+
+#: includes/countries.php:76
+#@ ignitewoo_events
+msgid "Czech Republic"
+msgstr ""
+
+#: includes/countries.php:77
+#@ ignitewoo_events
+msgid "Denmark"
+msgstr ""
+
+#: includes/countries.php:78
+#@ ignitewoo_events
+msgid "Djibouti"
+msgstr ""
+
+#: includes/countries.php:79
+#@ ignitewoo_events
+msgid "Dominica"
+msgstr ""
+
+#: includes/countries.php:80
+#@ ignitewoo_events
+msgid "Dominican Republic"
+msgstr ""
+
+#: includes/countries.php:81
+#@ ignitewoo_events
+msgid "Ecuador"
+msgstr ""
+
+#: includes/countries.php:82
+#@ ignitewoo_events
+msgid "Egypt"
+msgstr ""
+
+#: includes/countries.php:83
+#@ ignitewoo_events
+msgid "El Salvador"
+msgstr ""
+
+#: includes/countries.php:84
+#@ ignitewoo_events
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: includes/countries.php:85
+#@ ignitewoo_events
+msgid "Eritrea"
+msgstr ""
+
+#: includes/countries.php:86
+#@ ignitewoo_events
+msgid "Estonia"
+msgstr ""
+
+#: includes/countries.php:87
+#@ ignitewoo_events
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/countries.php:88
+#@ ignitewoo_events
+msgid "Falkland Islands"
+msgstr ""
+
+#: includes/countries.php:89
+#@ ignitewoo_events
+msgid "Faroe Islands"
+msgstr ""
+
+#: includes/countries.php:90
+#@ ignitewoo_events
+msgid "Fiji"
+msgstr ""
+
+#: includes/countries.php:91
+#@ ignitewoo_events
+msgid "Finland"
+msgstr ""
+
+#: includes/countries.php:92
+#@ ignitewoo_events
+msgid "France"
+msgstr ""
+
+#: includes/countries.php:93
+#@ ignitewoo_events
+msgid "French Guiana"
+msgstr ""
+
+#: includes/countries.php:94
+#@ ignitewoo_events
+msgid "French Polynesia"
+msgstr ""
+
+#: includes/countries.php:95
+#@ ignitewoo_events
+msgid "French Southern Territories"
+msgstr ""
+
+#: includes/countries.php:96
+#@ ignitewoo_events
+msgid "Gabon"
+msgstr ""
+
+#: includes/countries.php:97
+#@ ignitewoo_events
+msgid "Gambia"
+msgstr ""
+
+#: includes/countries.php:98
+#: includes/states/US.php:16
+#@ ignitewoo_events
+#@ woocommerce
+msgid "Georgia"
+msgstr ""
+
+#: includes/countries.php:99
+#@ ignitewoo_events
+msgid "Germany"
+msgstr ""
+
+#: includes/countries.php:100
+#@ ignitewoo_events
+msgid "Ghana"
+msgstr ""
+
+#: includes/countries.php:101
+#@ ignitewoo_events
+msgid "Gibraltar"
+msgstr ""
+
+#: includes/countries.php:102
+#@ ignitewoo_events
+msgid "Greece"
+msgstr ""
+
+#: includes/countries.php:103
+#@ ignitewoo_events
+msgid "Greenland"
+msgstr ""
+
+#: includes/countries.php:104
+#@ ignitewoo_events
+msgid "Grenada"
+msgstr ""
+
+#: includes/countries.php:105
+#@ ignitewoo_events
+msgid "Guadeloupe"
+msgstr ""
+
+#: includes/countries.php:106
+#@ ignitewoo_events
+msgid "Guatemala"
+msgstr ""
+
+#: includes/countries.php:107
+#@ ignitewoo_events
+msgid "Guernsey"
+msgstr ""
+
+#: includes/countries.php:108
+#@ ignitewoo_events
+msgid "Guinea"
+msgstr ""
+
+#: includes/countries.php:109
+#@ ignitewoo_events
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: includes/countries.php:110
+#@ ignitewoo_events
+msgid "Guyana"
+msgstr ""
+
+#: includes/countries.php:111
+#@ ignitewoo_events
+msgid "Haiti"
+msgstr ""
+
+#: includes/countries.php:112
+#@ ignitewoo_events
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: includes/countries.php:113
+#@ ignitewoo_events
+msgid "Honduras"
+msgstr ""
+
+#: includes/countries.php:114
+#@ ignitewoo_events
+msgid "Hong Kong"
+msgstr ""
+
+#: includes/countries.php:115
+#@ ignitewoo_events
+msgid "Hungary"
+msgstr ""
+
+#: includes/countries.php:116
+#@ ignitewoo_events
+msgid "Iceland"
+msgstr ""
+
+#: includes/countries.php:117
+#@ ignitewoo_events
+msgid "India"
+msgstr ""
+
+#: includes/countries.php:118
+#@ ignitewoo_events
+msgid "Indonesia"
+msgstr ""
+
+#: includes/countries.php:119
+#@ ignitewoo_events
+msgid "Iran"
+msgstr ""
+
+#: includes/countries.php:120
+#@ ignitewoo_events
+msgid "Iraq"
+msgstr ""
+
+#: includes/countries.php:121
+#@ ignitewoo_events
+msgid "Republic of Ireland"
+msgstr ""
+
+#: includes/countries.php:122
+#@ ignitewoo_events
+msgid "Isle of Man"
+msgstr ""
+
+#: includes/countries.php:123
+#@ ignitewoo_events
+msgid "Israel"
+msgstr ""
+
+#: includes/countries.php:124
+#@ ignitewoo_events
+msgid "Italy"
+msgstr ""
+
+#: includes/countries.php:125
+#@ ignitewoo_events
+msgid "Ivory Coast"
+msgstr ""
+
+#: includes/countries.php:126
+#@ ignitewoo_events
+msgid "Jamaica"
+msgstr ""
+
+#: includes/countries.php:127
+#@ ignitewoo_events
+msgid "Japan"
+msgstr ""
+
+#: includes/countries.php:128
+#@ ignitewoo_events
+msgid "Jersey"
+msgstr ""
+
+#: includes/countries.php:129
+#@ ignitewoo_events
+msgid "Jordan"
+msgstr ""
+
+#: includes/countries.php:130
+#@ ignitewoo_events
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/countries.php:131
+#@ ignitewoo_events
+msgid "Kenya"
+msgstr ""
+
+#: includes/countries.php:132
+#@ ignitewoo_events
+msgid "Kiribati"
+msgstr ""
+
+#: includes/countries.php:133
+#@ ignitewoo_events
+msgid "Kuwait"
+msgstr ""
+
+#: includes/countries.php:134
+#@ ignitewoo_events
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/countries.php:135
+#@ ignitewoo_events
+msgid "Laos"
+msgstr ""
+
+#: includes/countries.php:136
+#@ ignitewoo_events
+msgid "Latvia"
+msgstr ""
+
+#: includes/countries.php:137
+#@ ignitewoo_events
+msgid "Lebanon"
+msgstr ""
+
+#: includes/countries.php:138
+#@ ignitewoo_events
+msgid "Lesotho"
+msgstr ""
+
+#: includes/countries.php:139
+#@ ignitewoo_events
+msgid "Liberia"
+msgstr ""
+
+#: includes/countries.php:140
+#@ ignitewoo_events
+msgid "Libya"
+msgstr ""
+
+#: includes/countries.php:141
+#@ ignitewoo_events
+msgid "Liechtenstein"
+msgstr ""
+
+#: includes/countries.php:142
+#@ ignitewoo_events
+msgid "Lithuania"
+msgstr ""
+
+#: includes/countries.php:143
+#@ ignitewoo_events
+msgid "Luxembourg"
+msgstr ""
+
+#: includes/countries.php:144
+#@ ignitewoo_events
+msgid "Macao S.A.R., China"
+msgstr ""
+
+#: includes/countries.php:145
+#@ ignitewoo_events
+msgid "Macedonia"
+msgstr ""
+
+#: includes/countries.php:146
+#@ ignitewoo_events
+msgid "Madagascar"
+msgstr ""
+
+#: includes/countries.php:147
+#@ ignitewoo_events
+msgid "Malawi"
+msgstr ""
+
+#: includes/countries.php:148
+#@ ignitewoo_events
+msgid "Malaysia"
+msgstr ""
+
+#: includes/countries.php:149
+#@ ignitewoo_events
+msgid "Maldives"
+msgstr ""
+
+#: includes/countries.php:150
+#@ ignitewoo_events
+msgid "Mali"
+msgstr ""
+
+#: includes/countries.php:151
+#@ ignitewoo_events
+msgid "Malta"
+msgstr ""
+
+#: includes/countries.php:152
+#@ ignitewoo_events
+msgid "Marshall Islands"
+msgstr ""
+
+#: includes/countries.php:153
+#@ ignitewoo_events
+msgid "Martinique"
+msgstr ""
+
+#: includes/countries.php:154
+#@ ignitewoo_events
+msgid "Mauritania"
+msgstr ""
+
+#: includes/countries.php:155
+#@ ignitewoo_events
+msgid "Mauritius"
+msgstr ""
+
+#: includes/countries.php:156
+#@ ignitewoo_events
+msgid "Mayotte"
+msgstr ""
+
+#: includes/countries.php:157
+#@ ignitewoo_events
+msgid "Mexico"
+msgstr ""
+
+#: includes/countries.php:158
+#@ ignitewoo_events
+msgid "Micronesia"
+msgstr ""
+
+#: includes/countries.php:159
+#@ ignitewoo_events
+msgid "Moldova"
+msgstr ""
+
+#: includes/countries.php:160
+#@ ignitewoo_events
+msgid "Monaco"
+msgstr ""
+
+#: includes/countries.php:161
+#@ ignitewoo_events
+msgid "Mongolia"
+msgstr ""
+
+#: includes/countries.php:162
+#@ ignitewoo_events
+msgid "Montenegro"
+msgstr ""
+
+#: includes/countries.php:163
+#@ ignitewoo_events
+msgid "Montserrat"
+msgstr ""
+
+#: includes/countries.php:164
+#@ ignitewoo_events
+msgid "Morocco"
+msgstr ""
+
+#: includes/countries.php:165
+#@ ignitewoo_events
+msgid "Mozambique"
+msgstr ""
+
+#: includes/countries.php:166
+#@ ignitewoo_events
+msgid "Myanmar"
+msgstr ""
+
+#: includes/countries.php:167
+#@ ignitewoo_events
+msgid "Namibia"
+msgstr ""
+
+#: includes/countries.php:168
+#@ ignitewoo_events
+msgid "Nauru"
+msgstr ""
+
+#: includes/countries.php:169
+#@ ignitewoo_events
+msgid "Nepal"
+msgstr ""
+
+#: includes/countries.php:170
+#@ ignitewoo_events
+msgid "Netherlands"
+msgstr ""
+
+#: includes/countries.php:171
+#@ ignitewoo_events
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: includes/countries.php:172
+#@ ignitewoo_events
+msgid "New Caledonia"
+msgstr ""
+
+#: includes/countries.php:173
+#@ ignitewoo_events
+msgid "New Zealand"
+msgstr ""
+
+#: includes/countries.php:174
+#@ ignitewoo_events
+msgid "Nicaragua"
+msgstr ""
+
+#: includes/countries.php:175
+#@ ignitewoo_events
+msgid "Niger"
+msgstr ""
+
+#: includes/countries.php:176
+#@ ignitewoo_events
+msgid "Nigeria"
+msgstr ""
+
+#: includes/countries.php:177
+#@ ignitewoo_events
+msgid "Niue"
+msgstr ""
+
+#: includes/countries.php:178
+#@ ignitewoo_events
+msgid "Norfolk Island"
+msgstr ""
+
+#: includes/countries.php:179
+#@ ignitewoo_events
+msgid "North Korea"
+msgstr ""
+
+#: includes/countries.php:180
+#@ ignitewoo_events
+msgid "Norway"
+msgstr ""
+
+#: includes/countries.php:181
+#@ ignitewoo_events
+msgid "Oman"
+msgstr ""
+
+#: includes/countries.php:182
+#@ ignitewoo_events
+msgid "Pakistan"
+msgstr ""
+
+#: includes/countries.php:183
+#@ ignitewoo_events
+msgid "Palestinian Territory"
+msgstr ""
+
+#: includes/countries.php:184
+#@ ignitewoo_events
+msgid "Panama"
+msgstr ""
+
+#: includes/countries.php:185
+#@ ignitewoo_events
+msgid "Papua New Guinea"
+msgstr ""
+
+#: includes/countries.php:186
+#@ ignitewoo_events
+msgid "Paraguay"
+msgstr ""
+
+#: includes/countries.php:187
+#@ ignitewoo_events
+msgid "Peru"
+msgstr ""
+
+#: includes/countries.php:188
+#@ ignitewoo_events
+msgid "Philippines"
+msgstr ""
+
+#: includes/countries.php:189
+#@ ignitewoo_events
+msgid "Pitcairn"
+msgstr ""
+
+#: includes/countries.php:190
+#@ ignitewoo_events
+msgid "Poland"
+msgstr ""
+
+#: includes/countries.php:191
+#@ ignitewoo_events
+msgid "Portugal"
+msgstr ""
+
+#: includes/countries.php:192
+#@ ignitewoo_events
+msgid "Qatar"
+msgstr ""
+
+#: includes/countries.php:193
+#@ ignitewoo_events
+msgid "Reunion"
+msgstr ""
+
+#: includes/countries.php:194
+#@ ignitewoo_events
+msgid "Romania"
+msgstr ""
+
+#: includes/countries.php:195
+#@ ignitewoo_events
+msgid "Russia"
+msgstr ""
+
+#: includes/countries.php:196
+#@ ignitewoo_events
+msgid "Rwanda"
+msgstr ""
+
+#: includes/countries.php:197
+#@ ignitewoo_events
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+#: includes/countries.php:198
+#@ ignitewoo_events
+msgid "Saint Helena"
+msgstr ""
+
+#: includes/countries.php:199
+#@ ignitewoo_events
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: includes/countries.php:200
+#@ ignitewoo_events
+msgid "Saint Lucia"
+msgstr ""
+
+#: includes/countries.php:201
+#@ ignitewoo_events
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: includes/countries.php:202
+#@ ignitewoo_events
+msgid "Saint Martin (Dutch part)"
+msgstr ""
+
+#: includes/countries.php:203
+#@ ignitewoo_events
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: includes/countries.php:204
+#@ ignitewoo_events
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: includes/countries.php:205
+#@ ignitewoo_events
+msgid "San Marino"
+msgstr ""
+
+#: includes/countries.php:206
+#@ ignitewoo_events
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+#: includes/countries.php:207
+#@ ignitewoo_events
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/countries.php:208
+#@ ignitewoo_events
+msgid "Senegal"
+msgstr ""
+
+#: includes/countries.php:209
+#@ ignitewoo_events
+msgid "Serbia"
+msgstr ""
+
+#: includes/countries.php:210
+#@ ignitewoo_events
+msgid "Seychelles"
+msgstr ""
+
+#: includes/countries.php:211
+#@ ignitewoo_events
+msgid "Sierra Leone"
+msgstr ""
+
+#: includes/countries.php:212
+#@ ignitewoo_events
+msgid "Singapore"
+msgstr ""
+
+#: includes/countries.php:213
+#@ ignitewoo_events
+msgid "Slovakia"
+msgstr ""
+
+#: includes/countries.php:214
+#@ ignitewoo_events
+msgid "Slovenia"
+msgstr ""
+
+#: includes/countries.php:215
+#@ ignitewoo_events
+msgid "Solomon Islands"
+msgstr ""
+
+#: includes/countries.php:216
+#@ ignitewoo_events
+msgid "Somalia"
+msgstr ""
+
+#: includes/countries.php:217
+#@ ignitewoo_events
+msgid "South Africa"
+msgstr ""
+
+#: includes/countries.php:218
+#@ ignitewoo_events
+msgid "South Georgia/Sandwich Islands"
+msgstr ""
+
+#: includes/countries.php:219
+#@ ignitewoo_events
+msgid "South Korea"
+msgstr ""
+
+#: includes/countries.php:220
+#@ ignitewoo_events
+msgid "South Sudan"
+msgstr ""
+
+#: includes/countries.php:221
+#@ ignitewoo_events
+msgid "Spain"
+msgstr ""
+
+#: includes/countries.php:222
+#@ ignitewoo_events
+msgid "Sri Lanka"
+msgstr ""
+
+#: includes/countries.php:223
+#@ ignitewoo_events
+msgid "Sudan"
+msgstr ""
+
+#: includes/countries.php:224
+#@ ignitewoo_events
+msgid "Suriname"
+msgstr ""
+
+#: includes/countries.php:225
+#@ ignitewoo_events
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: includes/countries.php:226
+#@ ignitewoo_events
+msgid "Swaziland"
+msgstr ""
+
+#: includes/countries.php:227
+#@ ignitewoo_events
+msgid "Sweden"
+msgstr ""
+
+#: includes/countries.php:228
+#@ ignitewoo_events
+msgid "Switzerland"
+msgstr ""
+
+#: includes/countries.php:229
+#@ ignitewoo_events
+msgid "Syria"
+msgstr ""
+
+#: includes/countries.php:230
+#@ ignitewoo_events
+msgid "Taiwan"
+msgstr ""
+
+#: includes/countries.php:231
+#@ ignitewoo_events
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/countries.php:232
+#@ ignitewoo_events
+msgid "Tanzania"
+msgstr ""
+
+#: includes/countries.php:233
+#@ ignitewoo_events
+msgid "Thailand"
+msgstr ""
+
+#: includes/countries.php:234
+#@ ignitewoo_events
+msgid "Timor-Leste"
+msgstr ""
+
+#: includes/countries.php:235
+#@ ignitewoo_events
+msgid "Togo"
+msgstr ""
+
+#: includes/countries.php:236
+#@ ignitewoo_events
+msgid "Tokelau"
+msgstr ""
+
+#: includes/countries.php:237
+#@ ignitewoo_events
+msgid "Tonga"
+msgstr ""
+
+#: includes/countries.php:238
+#@ ignitewoo_events
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: includes/countries.php:239
+#@ ignitewoo_events
+msgid "Tunisia"
+msgstr ""
+
+#: includes/countries.php:240
+#@ ignitewoo_events
+msgid "Turkey"
+msgstr ""
+
+#: includes/countries.php:241
+#@ ignitewoo_events
+msgid "Turkmenistan"
+msgstr ""
+
+#: includes/countries.php:242
+#@ ignitewoo_events
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: includes/countries.php:243
+#@ ignitewoo_events
+msgid "Tuvalu"
+msgstr ""
+
+#: includes/countries.php:244
+#@ ignitewoo_events
+msgid "Uganda"
+msgstr ""
+
+#: includes/countries.php:245
+#@ ignitewoo_events
+msgid "Ukraine"
+msgstr ""
+
+#: includes/countries.php:246
+#@ ignitewoo_events
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/countries.php:247
+#@ ignitewoo_events
+msgid "United Kingdom"
+msgstr ""
+
+#: includes/countries.php:248
+#@ ignitewoo_events
+msgid "United States"
+msgstr ""
+
+#: includes/countries.php:249
+#@ ignitewoo_events
+msgid "Uruguay"
+msgstr ""
+
+#: includes/countries.php:250
+#@ ignitewoo_events
+msgid "Uzbekistan"
+msgstr ""
+
+#: includes/countries.php:251
+#@ ignitewoo_events
+msgid "Vanuatu"
+msgstr ""
+
+#: includes/countries.php:252
+#@ ignitewoo_events
+msgid "Vatican"
+msgstr ""
+
+#: includes/countries.php:253
+#@ ignitewoo_events
+msgid "Venezuela"
+msgstr ""
+
+#: includes/countries.php:254
+#@ ignitewoo_events
+msgid "Vietnam"
+msgstr ""
+
+#: includes/countries.php:255
+#@ ignitewoo_events
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: includes/countries.php:256
+#@ ignitewoo_events
+msgid "Western Sahara"
+msgstr ""
+
+#: includes/countries.php:257
+#@ ignitewoo_events
+msgid "Western Samoa"
+msgstr ""
+
+#: includes/countries.php:258
+#@ ignitewoo_events
+msgid "Yemen"
+msgstr ""
+
+#: includes/countries.php:259
+#@ ignitewoo_events
+msgid "Zambia"
+msgstr ""
+
+#: includes/countries.php:260
+#@ ignitewoo_events
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/events-admin.php:63
+#: includes/events-meta-box.php:141
+#@ ignitewoo_events
+msgid "Event Details"
+msgstr ""
+
+#: includes/events-admin.php:576
+#@ ignitewoo_events
+msgid "WooEvents"
+msgstr ""
+
+#: includes/events-admin.php:576
+#@ ignitewoo_events
+msgid "WooEvents™"
+msgstr ""
+
+#: includes/events-admin.php:578
+#: includes/events-settings.php:64
+#@ ignitewoo_events
+msgid "Settings"
+msgstr ""
+
+#: includes/events-admin.php:644
+#@ ignitewoo_events
+msgid "<strong>Welcome to Events Calendar & Ticketing</strong> &#8211; You're almost ready to go :)"
+msgstr ""
+
+#: includes/events-admin.php:645
+#@ ignitewoo_events
+msgid "Take me to Settings"
+msgstr ""
+
+#: includes/events-admin.php:646
+#@ ignitewoo_events
+msgid "WooEvents&trade; Pro"
+msgstr ""
+
+#: includes/events-meta-box.php:112
+#@ ignitewoo_events
+msgid "Event Time &amp; Date"
+msgstr ""
+
+#: includes/events-meta-box.php:117
+#@ ignitewoo_events
+msgid "Start date / time"
+msgstr ""
+
+#: includes/events-meta-box.php:122
+#@ ignitewoo_events
+msgid "End date / time"
+msgstr ""
+
+#: includes/events-meta-box.php:154
+#@ ignitewoo_events
+msgid "Venue"
+msgstr ""
+
+#: includes/events-meta-box.php:156
+#@ ignitewoo_events
+msgid "No venues exist. Before you can select a venue you must create and publish one"
+msgstr ""
+
+#: includes/events-meta-box.php:159
+#@ ignitewoo_events
+msgid "Select a venue"
+msgstr ""
+
+#: includes/events-meta-box.php:164
+#@ ignitewoo_events
+msgid " Select the venue at which this event will take place "
+msgstr ""
+
+#: includes/events-meta-box.php:170
+#@ ignitewoo_events
+msgid "Display Map"
+msgstr ""
+
+#: includes/events-meta-box.php:171
+#@ ignitewoo_events
+msgid "Display a map to the venue on the event's page"
+msgstr ""
+
+#: includes/events-meta-box.php:175
+#@ ignitewoo_events
+msgid "Display Details"
+msgstr ""
+
+#: includes/events-meta-box.php:176
+#@ ignitewoo_events
+msgid "Display the event organizer's contact info on individual event pages"
+msgstr ""
+
+#: includes/events-meta-box.php:182
+#@ ignitewoo_events
+msgid "Event Organizers"
+msgstr ""
+
+#: includes/events-meta-box.php:184
+#@ ignitewoo_events
+msgid "No organizers exist. Before you can add organizers you must create and publish one"
+msgstr ""
+
+#: includes/events-meta-box.php:191
+#@ ignitewoo_events
+msgid " Optionally select organizers that are coordinating the entire event "
+msgstr ""
+
+#: includes/events-meta-box.php:196
+#: templates/ignitewoo-event-details-template.php:474
+#@ ignitewoo_events
+msgid "Event Sponsors"
+msgstr ""
+
+#: includes/events-meta-box.php:198
+#@ ignitewoo_events
+msgid "No sponsors exist. Before you can add sponsors you must create and publish one"
+msgstr ""
+
+#: includes/events-meta-box.php:205
+#@ ignitewoo_events
+msgid " Optionally select sponsors that are sponsoring the entire event "
+msgstr ""
+
+#: includes/events-meta-box.php:214
+#@ ignitewoo_events
+msgid "Event Speakers"
+msgstr ""
+
+#: includes/events-meta-box.php:216
+#@ ignitewoo_events
+msgid "No speakers exist. Before you can add speakers you must create and publish one"
+msgstr ""
+
+#: includes/events-meta-box.php:223
+#@ ignitewoo_events
+msgid " Optionally select speakers for the event "
+msgstr ""
+
+#: includes/events-meta-box.php:230
+#@ ignitewoo_events
+msgid "Event Cost"
+msgstr ""
+
+#: includes/events-post-types-meta.php:54
+#@ ignitewoo_events
+msgid "Street Address"
+msgstr ""
+
+#: includes/events-post-types-meta.php:62
+#@ ignitewoo_events
+msgid "City"
+msgstr ""
+
+#: includes/events-post-types-meta.php:70
+#@ ignitewoo_events
+msgid "State / Country"
+msgstr ""
+
+#: includes/events-post-types-meta.php:94
+#@ ignitewoo_events
+msgid "Choose a country&raquo;"
+msgstr ""
+
+#: includes/events-post-types-meta.php:94
+#@ ignitewoo_events
+msgid "Country / State"
+msgstr ""
+
+#: includes/events-post-types-meta.php:101
+#@ ignitewoo_events
+msgid "Postal Code"
+msgstr ""
+
+#: includes/events-post-types-meta.php:109
+#@ ignitewoo_events
+msgid "Phone Number"
+msgstr ""
+
+#: includes/events-post-types-meta.php:117
+#@ ignitewoo_events
+msgid "Web Site"
+msgstr ""
+
+#: includes/events-post-types-meta.php:125
+#@ ignitewoo_events
+msgid "Email Address"
+msgstr ""
+
+#: includes/events-post-types-meta.php:156
+#: templates/ignitewoo-event-details-template.php:338
+#@ ignitewoo_events
+msgid "Organizer Details"
+msgstr ""
+
+#: includes/events-post-types-meta.php:158
+#: templates/ignitewoo-event-details-template.php:195
+#@ ignitewoo_events
+msgid "Venue Details"
+msgstr ""
+
+#: includes/events-post-types-meta.php:160
+#@ ignitewoo_events
+msgid "Speaker Details"
+msgstr ""
+
+#: includes/events-post-types-meta.php:162
+#@ ignitewoo_events
+msgid "Sponsor Details"
+msgstr ""
+
+#: includes/events-post-types.php:219
+#@ ignitewoo_events
+msgctxt "slug"
+msgid "event-category"
+msgstr ""
+
+#: includes/events-post-types.php:221
+#@ ignitewoo_events
+msgctxt "slug"
+msgid "event-tag"
+msgstr ""
+
+#: includes/events-post-types.php:230
+#@ ignitewoo_events
+msgid "Events"
+msgstr ""
+
+#: includes/events-post-types.php:231
+#@ ignitewoo_events
+msgid "Event"
+msgstr ""
+
+#: includes/events-post-types.php:232
+#@ ignitewoo_events
+msgctxt "Admin menu name"
+msgid "Events"
+msgstr ""
+
+#: includes/events-post-types.php:233
+#@ ignitewoo_events
+msgid "Add Event"
+msgstr ""
+
+#: includes/events-post-types.php:234
+#@ ignitewoo_events
+msgid "Add New Event"
+msgstr ""
+
+#: includes/events-post-types.php:235
+#@ ignitewoo_events
+msgid "Edit"
+msgstr ""
+
+#: includes/events-post-types.php:236
+#@ ignitewoo_events
+msgid "Edit Event"
+msgstr ""
+
+#: includes/events-post-types.php:237
+#@ ignitewoo_events
+msgid "New Event"
+msgstr ""
+
+#: includes/events-post-types.php:238
+#: includes/events-post-types.php:239
+#@ ignitewoo_events
+msgid "View Event"
+msgstr ""
+
+#: includes/events-post-types.php:240
+#@ ignitewoo_events
+msgid "Search Events"
+msgstr ""
+
+#: includes/events-post-types.php:241
+#@ ignitewoo_events
+msgid "No Events found"
+msgstr ""
+
+#: includes/events-post-types.php:242
+#@ ignitewoo_events
+msgid "No Events found in trash"
+msgstr ""
+
+#: includes/events-post-types.php:243
+#@ ignitewoo_events
+msgid "Parent Event"
+msgstr ""
+
+#: includes/events-post-types.php:245
+#@ ignitewoo_events
+msgid "This is where you can add new products to your store."
+msgstr ""
+
+#: includes/events-post-types.php:265
+#: includes/events-post-types.php:267
+#@ ignitewoo_events
+msgid "Event Categories"
+msgstr ""
+
+#: includes/events-post-types.php:268
+#@ ignitewoo_events
+msgid "Event Category"
+msgstr ""
+
+#: includes/events-post-types.php:269
+#@ ignitewoo_events
+msgctxt "Admin menu name"
+msgid "Categories"
+msgstr ""
+
+#: includes/events-post-types.php:270
+#@ ignitewoo_events
+msgid "Search Event Categories"
+msgstr ""
+
+#: includes/events-post-types.php:271
+#@ ignitewoo_events
+msgid "All Event Categories"
+msgstr ""
+
+#: includes/events-post-types.php:272
+#@ ignitewoo_events
+msgid "Parent Event Category"
+msgstr ""
+
+#: includes/events-post-types.php:273
+#@ ignitewoo_events
+msgid "Parent Event Category:"
+msgstr ""
+
+#: includes/events-post-types.php:274
+#@ ignitewoo_events
+msgid "Edit Event Category"
+msgstr ""
+
+#: includes/events-post-types.php:275
+#@ ignitewoo_events
+msgid "Update Event Category"
+msgstr ""
+
+#: includes/events-post-types.php:276
+#@ ignitewoo_events
+msgid "Add New Event Category"
+msgstr ""
+
+#: includes/events-post-types.php:277
+#@ ignitewoo_events
+msgid "New Event Category Name"
+msgstr ""
+
+#: includes/events-post-types.php:294
+#: includes/events-post-types.php:296
+#@ ignitewoo_events
+msgid "Event Tags"
+msgstr ""
+
+#: includes/events-post-types.php:297
+#@ ignitewoo_events
+msgid "Event Tag"
+msgstr ""
+
+#: includes/events-post-types.php:298
+#@ ignitewoo_events
+msgctxt "Admin menu name"
+msgid "Tags"
+msgstr ""
+
+#: includes/events-post-types.php:299
+#@ ignitewoo_events
+msgid "Search Event Tags"
+msgstr ""
+
+#: includes/events-post-types.php:300
+#@ ignitewoo_events
+msgid "All Event Tags"
+msgstr ""
+
+#: includes/events-post-types.php:301
+#@ ignitewoo_events
+msgid "Parent Event Tag"
+msgstr ""
+
+#: includes/events-post-types.php:302
+#@ ignitewoo_events
+msgid "Parent Event Tag:"
+msgstr ""
+
+#: includes/events-post-types.php:303
+#@ ignitewoo_events
+msgid "Edit Event Tag"
+msgstr ""
+
+#: includes/events-post-types.php:304
+#@ ignitewoo_events
+msgid "Update Event Tag"
+msgstr ""
+
+#: includes/events-post-types.php:305
+#@ ignitewoo_events
+msgid "Add New Event Tag"
+msgstr ""
+
+#: includes/events-post-types.php:306
+#@ ignitewoo_events
+msgid "New Event Tag Name"
+msgstr ""
+
+#: includes/events-post-types.php:337
+#@ ignitewoo_events
+msgid "Event Start"
+msgstr ""
+
+#: includes/events-post-types.php:339
+#@ ignitewoo_events
+msgid "Event End"
+msgstr ""
+
+#: includes/events-settings.php:50
+#@ ignitewoo_events
+msgid "IgniteWoo Events Settings"
+msgstr ""
+
+#: includes/events-settings.php:52
+#@ ignitewoo_events
+msgid "Configure the settings to control how your events system operates."
+msgstr ""
+
+#: includes/events-settings.php:54
+#@ ignitewoo_events
+msgid "Adjust the settings here. Add new venues, organizers, sponsors, and speakers using the menu page for those, then add a new product in WooCommerce and select the \"Event\" option for the product, then configure the event to suit your needs."
+msgstr ""
+
+#: includes/events-settings.php:81
+#@ ignitewoo_events
+msgid "Events Posting"
+msgstr ""
+
+#: includes/events-settings.php:86
+#@ ignitewoo_events
+msgid "Events Only"
+msgstr ""
+
+#: includes/events-settings.php:90
+#@ ignitewoo_events
+msgid "Events and Tickets"
+msgstr ""
+
+#: includes/events-settings.php:94
+#@ ignitewoo_events
+msgid "Tickets Only"
+msgstr ""
+
+#: includes/events-settings.php:104
+#@ ignitewoo_events
+msgid "Events Slug"
+msgstr ""
+
+#: includes/events-settings.php:108
+#@ ignitewoo_events
+msgid "The slug used in URLs for Events. NOTE: Cannot be blank!"
+msgstr ""
+
+#: includes/events-settings.php:115
+#@ ignitewoo_events
+msgid "Event Venue Slug"
+msgstr ""
+
+#: includes/events-settings.php:119
+#@ ignitewoo_events
+msgid "The slug used in URLs for Event Venue categories. NOTE: Cannot be blank!"
+msgstr ""
+
+#: includes/events-settings.php:126
+#@ ignitewoo_events
+msgid "Event Organizer Slug"
+msgstr ""
+
+#: includes/events-settings.php:130
+#@ ignitewoo_events
+msgid "The slug used in URLs for Event Organizer categories. NOTE: Cannot be blank!"
+msgstr ""
+
+#: includes/events-settings.php:137
+#@ ignitewoo_events
+msgid "Event Sponsor Slug"
+msgstr ""
+
+#: includes/events-settings.php:141
+#@ ignitewoo_events
+msgid "The slug used in URLs for Event Sponsor categories. NOTE: Cannot be blank!"
+msgstr ""
+
+#: includes/events-settings.php:148
+#@ ignitewoo_events
+msgid "Event Speaker Slug"
+msgstr ""
+
+#: includes/events-settings.php:152
+#@ ignitewoo_events
+msgid "The slug used in URLs for Event Speaker categories. NOTE: Cannot be blank!"
+msgstr ""
+
+#: includes/events-settings.php:159
+#@ ignitewoo_events
+msgid "Expired Events"
+msgstr ""
+
+#: includes/events-settings.php:162
+#@ ignitewoo_events
+msgid "Draft"
+msgstr ""
+
+#: includes/events-settings.php:164
+#@ ignitewoo_events
+msgid "Trash"
+msgstr ""
+
+#: includes/events-settings.php:166
+#@ ignitewoo_events
+msgid "Do nothing"
+msgstr ""
+
+#: includes/events-settings.php:168
+#@ ignitewoo_events
+msgid "When events expire you can either have them marked as Draft or Trash, or neither."
+msgstr ""
+
+#: includes/events-settings.php:170
+#@ ignitewoo_events
+msgid "Note that if you choose to move items to the trash, any associated recurring settings from WooEvents Pro will be deleted from the item."
+msgstr ""
+
+#: includes/events-settings.php:172
+#@ ignitewoo_events
+msgid "Also note that any items that are republished MUST have the expiration date reset to the future to avoid becoming expired again immediately."
+msgstr ""
+
+#: includes/events-settings.php:179
+#@ ignitewoo_events
+msgid "Default Event Date Format"
+msgstr ""
+
+#: includes/events-settings.php:185
+#@ ignitewoo_events
+msgid "Dec 7, 2014"
+msgstr ""
+
+#: includes/events-settings.php:186
+#@ ignitewoo_events
+msgid "7 Dec 2014"
+msgstr ""
+
+#: includes/events-settings.php:187
+#@ ignitewoo_events
+msgid "7 Dec 14"
+msgstr ""
+
+#: includes/events-settings.php:189
+#@ ignitewoo_events
+msgid "This setting will be used when display dates on the public site ( see <a href=\"http://www.php.net/manual/en/function.date.php\" target=\"_blank\">PHP date function</a> for formatting possibilities )"
+msgstr ""
+
+#: includes/events-settings.php:190
+#: includes/events-settings.php:206
+#@ ignitewoo_events
+msgid "NOTE: Changing this setting will not update existing recurring event variation dates. You must edit the variation attributes manually."
+msgstr ""
+
+#: includes/events-settings.php:196
+#@ ignitewoo_events
+msgid "Default Event Time Format"
+msgstr ""
+
+#: includes/events-settings.php:204
+#@ ignitewoo_events
+msgid "This setting will be used when display times on the public site ( see <a href=\"http://www.php.net/manual/en/function.date.php\" target=\"_blank\">PHP date function</a> for formatting possibilities )"
+msgstr ""
+
+#: includes/events-settings.php:214
+#@ ignitewoo_events
+msgid "Default Event Start Time"
+msgstr ""
+
+#: includes/events-settings.php:218
+#@ ignitewoo_events
+msgid "This setting will be prepopulate into event settings when creating a new event. ( Example: 9:00 pm )"
+msgstr ""
+
+#: includes/events-settings.php:225
+#@ ignitewoo_events
+msgid "Default Event End Time"
+msgstr ""
+
+#: includes/events-settings.php:229
+#@ ignitewoo_events
+msgid "This setting will be prepopulate into event settings when creating a new event. ( Example: 5:00 pm )"
+msgstr ""
+
+#: includes/events-settings.php:236
+#@ ignitewoo_events
+msgid "Default Display Organizer"
+msgstr ""
+
+#: includes/events-settings.php:240
+#@ ignitewoo_events
+msgid "When enabled the default \"Display Organizer\" setting for new events will be turned on. You can turn this off when editing any individual event."
+msgstr ""
+
+#: includes/events-settings.php:247
+#@ ignitewoo_events
+msgid "Google Map Width"
+msgstr ""
+
+#: includes/events-settings.php:251
+#: includes/events-settings.php:262
+#@ ignitewoo_events
+msgid "Enter a numeric value or percent value"
+msgstr ""
+
+#: includes/events-settings.php:258
+#@ ignitewoo_events
+msgid "Google Map Height"
+msgstr ""
+
+#: includes/events-settings.php:269
+#@ ignitewoo_events
+msgid "Google Map Zoom"
+msgstr ""
+
+#: includes/events-settings.php:273
+#@ ignitewoo_events
+msgid "Enter a number between 1 and 15"
+msgstr ""
+
+#: includes/events-settings.php:280
+#@ ignitewoo_events
+msgid "Enable Content Shortcode"
+msgstr ""
+
+#: includes/events-settings.php:284
+#@ ignitewoo_events
+msgid "Enable shortcode to insert event information. Shortcode is [event_details]"
+msgstr ""
+
+#: includes/events-settings.php:296
+#@ ignitewoo_events
+msgid "Currency Symbol"
+msgstr ""
+
+#: includes/events-settings.php:300
+#@ ignitewoo_events
+msgid "Enter your currency symbol to be displayed when events have a cost involved."
+msgstr ""
+
+#: includes/events-settings.php:307
+#@ ignitewoo_events
+msgid "Currency Symbol Location"
+msgstr ""
+
+#: includes/events-settings.php:310
+#@ ignitewoo_events
+msgid "Left of amount"
+msgstr ""
+
+#: includes/events-settings.php:311
+#@ ignitewoo_events
+msgid "Right of amount"
+msgstr ""
+
+#: includes/events-settings.php:312
+#@ ignitewoo_events
+msgid "Select the currency symbol location."
+msgstr ""
+
+#: includes/events-settings.php:343
+#@ ignitewoo_events
+msgid "Update Settings"
+msgstr ""
+
+#: includes/events-widgets.php:23
+#@ ignitewoo_events
+msgid "Display a list of upcoming events on your site."
+msgstr ""
+
+#: includes/events-widgets.php:27
+#@ ignitewoo_events
+msgid "Event Calendar Upcoming Events"
+msgstr ""
+
+#: includes/events-widgets.php:60
+#@ ignitewoo_events
+msgid "Upcoming Events"
+msgstr ""
+
+#: includes/events-widgets.php:205
+#@ ignitewoo_events
+msgid "No upcoming events"
+msgstr ""
+
+#: includes/events-widgets.php:261
+#@ ignitewoo_events
+msgid "Title:"
+msgstr ""
+
+#: includes/events-widgets.php:266
+#@ ignitewoo_events
+msgid "Number of events to show:"
+msgstr ""
+
+#: includes/events-widgets.php:273
+#@ ignitewoo_events
+msgid "Show all recurrences for recurring events. When disabled only the next recurrence will be shown."
+msgstr ""
+
+#: includes/states/AU.php:6
+#@ ignitewoo_events
+msgid "Australian Capital Territory"
+msgstr ""
+
+#: includes/states/AU.php:7
+#@ ignitewoo_events
+msgid "New South Wales"
+msgstr ""
+
+#: includes/states/AU.php:8
+#@ ignitewoo_events
+msgid "Northern Territory"
+msgstr ""
+
+#: includes/states/AU.php:9
+#@ ignitewoo_events
+msgid "Queensland"
+msgstr ""
+
+#: includes/states/AU.php:10
+#@ ignitewoo_events
+msgid "South Australia"
+msgstr ""
+
+#: includes/states/AU.php:11
+#@ ignitewoo_events
+msgid "Tasmania"
+msgstr ""
+
+#: includes/states/AU.php:12
+#@ ignitewoo_events
+msgid "Victoria"
+msgstr ""
+
+#: includes/states/AU.php:13
+#@ ignitewoo_events
+msgid "Western Australia"
+msgstr ""
+
+#: includes/states/BR.php:6
+#@ ignitewoo_events
+msgid "Acre"
+msgstr ""
+
+#: includes/states/BR.php:7
+#@ ignitewoo_events
+msgid "Alagoas"
+msgstr ""
+
+#: includes/states/BR.php:8
+#@ ignitewoo_events
+msgid "Amap&aacute;"
+msgstr ""
+
+#: includes/states/BR.php:9
+#@ ignitewoo_events
+msgid "Amazonas"
+msgstr ""
+
+#: includes/states/BR.php:10
+#@ ignitewoo_events
+msgid "Bahia"
+msgstr ""
+
+#: includes/states/BR.php:11
+#@ ignitewoo_events
+msgid "Cear&aacute;"
+msgstr ""
+
+#: includes/states/BR.php:12
+#@ ignitewoo_events
+msgid "Distrito Federal"
+msgstr ""
+
+#: includes/states/BR.php:13
+#@ ignitewoo_events
+msgid "Esp&iacute;rito Santo"
+msgstr ""
+
+#: includes/states/BR.php:14
+#@ ignitewoo_events
+msgid "Goi&aacute;s"
+msgstr ""
+
+#: includes/states/BR.php:15
+#@ ignitewoo_events
+msgid "Maranh&atilde;o"
+msgstr ""
+
+#: includes/states/BR.php:16
+#@ ignitewoo_events
+msgid "Mato Grosso"
+msgstr ""
+
+#: includes/states/BR.php:17
+#@ ignitewoo_events
+msgid "Mato Grosso do Sul"
+msgstr ""
+
+#: includes/states/BR.php:18
+#@ ignitewoo_events
+msgid "Minas Gerais"
+msgstr ""
+
+#: includes/states/BR.php:19
+#@ ignitewoo_events
+msgid "Par&aacute;"
+msgstr ""
+
+#: includes/states/BR.php:20
+#@ ignitewoo_events
+msgid "Para&iacute;ba"
+msgstr ""
+
+#: includes/states/BR.php:21
+#@ ignitewoo_events
+msgid "Paran&aacute;"
+msgstr ""
+
+#: includes/states/BR.php:22
+#@ ignitewoo_events
+msgid "Pernambuco"
+msgstr ""
+
+#: includes/states/BR.php:23
+#@ ignitewoo_events
+msgid "Piau&iacute;"
+msgstr ""
+
+#: includes/states/BR.php:24
+#@ ignitewoo_events
+msgid "Rio de Janeiro"
+msgstr ""
+
+#: includes/states/BR.php:25
+#@ ignitewoo_events
+msgid "Rio Grande do Norte"
+msgstr ""
+
+#: includes/states/BR.php:26
+#@ ignitewoo_events
+msgid "Rio Grande do Sul"
+msgstr ""
+
+#: includes/states/BR.php:27
+#@ ignitewoo_events
+msgid "Rond&ocirc;nia"
+msgstr ""
+
+#: includes/states/BR.php:28
+#@ ignitewoo_events
+msgid "Roraima"
+msgstr ""
+
+#: includes/states/BR.php:29
+#@ ignitewoo_events
+msgid "Santa Catarina"
+msgstr ""
+
+#: includes/states/BR.php:30
+#@ ignitewoo_events
+msgid "S&atilde;o Paulo"
+msgstr ""
+
+#: includes/states/BR.php:31
+#@ ignitewoo_events
+msgid "Sergipe"
+msgstr ""
+
+#: includes/states/BR.php:32
+#@ ignitewoo_events
+msgid "Tocantins"
+msgstr ""
+
+#: includes/states/CA.php:6
+#@ ignitewoo_events
+msgid "Alberta"
+msgstr ""
+
+#: includes/states/CA.php:7
+#@ ignitewoo_events
+msgid "British Columbia"
+msgstr ""
+
+#: includes/states/CA.php:8
+#@ ignitewoo_events
+msgid "Manitoba"
+msgstr ""
+
+#: includes/states/CA.php:9
+#@ ignitewoo_events
+msgid "New Brunswick"
+msgstr ""
+
+#: includes/states/CA.php:10
+#@ ignitewoo_events
+msgid "Newfoundland"
+msgstr ""
+
+#: includes/states/CA.php:11
+#@ ignitewoo_events
+msgid "Northwest Territories"
+msgstr ""
+
+#: includes/states/CA.php:12
+#@ ignitewoo_events
+msgid "Nova Scotia"
+msgstr ""
+
+#: includes/states/CA.php:13
+#@ ignitewoo_events
+msgid "Nunavut"
+msgstr ""
+
+#: includes/states/CA.php:14
+#@ ignitewoo_events
+msgid "Ontario"
+msgstr ""
+
+#: includes/states/CA.php:15
+#@ ignitewoo_events
+msgid "Prince Edward Island"
+msgstr ""
+
+#: includes/states/CA.php:16
+#@ ignitewoo_events
+msgid "Quebec"
+msgstr ""
+
+#: includes/states/CA.php:17
+#@ ignitewoo_events
+msgid "Saskatchewan"
+msgstr ""
+
+#: includes/states/CA.php:18
+#@ ignitewoo_events
+msgid "Yukon Territory"
+msgstr ""
+
+#: includes/states/CN.php:6
+#@ ignitewoo_events
+msgid "Yunnan / &#20113;&#21335;"
+msgstr ""
+
+#: includes/states/CN.php:7
+#@ ignitewoo_events
+msgid "Beijing / &#21271;&#20140;"
+msgstr ""
+
+#: includes/states/CN.php:8
+#@ ignitewoo_events
+msgid "Tianjin / &#22825;&#27941;"
+msgstr ""
+
+#: includes/states/CN.php:9
+#@ ignitewoo_events
+msgid "Hebei / &#27827;&#21271;"
+msgstr ""
+
+#: includes/states/CN.php:10
+#@ ignitewoo_events
+msgid "Shanxi / &#23665;&#35199;"
+msgstr ""
+
+#: includes/states/CN.php:11
+#@ ignitewoo_events
+msgid "Inner Mongolia / &#20839;&#33945;&#21476;"
+msgstr ""
+
+#: includes/states/CN.php:12
+#@ ignitewoo_events
+msgid "Liaoning / &#36797;&#23425;"
+msgstr ""
+
+#: includes/states/CN.php:13
+#@ ignitewoo_events
+msgid "Jilin / &#21513;&#26519;"
+msgstr ""
+
+#: includes/states/CN.php:14
+#@ ignitewoo_events
+msgid "Heilongjiang / &#40657;&#40857;&#27743;"
+msgstr ""
+
+#: includes/states/CN.php:15
+#@ ignitewoo_events
+msgid "Shanghai / &#19978;&#28023;"
+msgstr ""
+
+#: includes/states/CN.php:16
+#@ ignitewoo_events
+msgid "Jiangsu / &#27743;&#33487;"
+msgstr ""
+
+#: includes/states/CN.php:17
+#@ ignitewoo_events
+msgid "Zhejiang / &#27993;&#27743;"
+msgstr ""
+
+#: includes/states/CN.php:18
+#@ ignitewoo_events
+msgid "Anhui / &#23433;&#24509;"
+msgstr ""
+
+#: includes/states/CN.php:19
+#@ ignitewoo_events
+msgid "Fujian / &#31119;&#24314;"
+msgstr ""
+
+#: includes/states/CN.php:20
+#@ ignitewoo_events
+msgid "Jiangxi / &#27743;&#35199;"
+msgstr ""
+
+#: includes/states/CN.php:21
+#@ ignitewoo_events
+msgid "Shandong / &#23665;&#19996;"
+msgstr ""
+
+#: includes/states/CN.php:22
+#@ ignitewoo_events
+msgid "Henan / &#27827;&#21335;"
+msgstr ""
+
+#: includes/states/CN.php:23
+#@ ignitewoo_events
+msgid "Hubei / &#28246;&#21271;"
+msgstr ""
+
+#: includes/states/CN.php:24
+#@ ignitewoo_events
+msgid "Hunan / &#28246;&#21335;"
+msgstr ""
+
+#: includes/states/CN.php:25
+#@ ignitewoo_events
+msgid "Guangdong / &#24191;&#19996;"
+msgstr ""
+
+#: includes/states/CN.php:26
+#@ ignitewoo_events
+msgid "Guangxi Zhuang / &#24191;&#35199;&#22766;&#26063;"
+msgstr ""
+
+#: includes/states/CN.php:27
+#@ ignitewoo_events
+msgid "Hainan / &#28023;&#21335;"
+msgstr ""
+
+#: includes/states/CN.php:28
+#@ ignitewoo_events
+msgid "Chongqing / &#37325;&#24198;"
+msgstr ""
+
+#: includes/states/CN.php:29
+#@ ignitewoo_events
+msgid "Sichuan / &#22235;&#24029;"
+msgstr ""
+
+#: includes/states/CN.php:30
+#@ ignitewoo_events
+msgid "Guizhou / &#36149;&#24030;"
+msgstr ""
+
+#: includes/states/CN.php:31
+#@ ignitewoo_events
+msgid "Shaanxi / &#38485;&#35199;"
+msgstr ""
+
+#: includes/states/CN.php:32
+#@ ignitewoo_events
+msgid "Gansu / &#29976;&#32899;"
+msgstr ""
+
+#: includes/states/CN.php:33
+#@ ignitewoo_events
+msgid "Qinghai / &#38738;&#28023;"
+msgstr ""
+
+#: includes/states/CN.php:34
+#@ ignitewoo_events
+msgid "Ningxia Hui / &#23425;&#22799;"
+msgstr ""
+
+#: includes/states/CN.php:35
+#@ ignitewoo_events
+msgid "Macau / &#28595;&#38376;"
+msgstr ""
+
+#: includes/states/CN.php:36
+#@ ignitewoo_events
+msgid "Tibet / &#35199;&#34255;"
+msgstr ""
+
+#: includes/states/CN.php:37
+#@ ignitewoo_events
+msgid "Xinjiang / &#26032;&#30086;"
+msgstr ""
+
+#: includes/states/ES.php:6
+#@ ignitewoo_events
+msgid "A Coru&ntilde;a"
+msgstr ""
+
+#: includes/states/ES.php:7
+#@ ignitewoo_events
+msgid "&Aacute;lava"
+msgstr ""
+
+#: includes/states/ES.php:8
+#@ ignitewoo_events
+msgid "Albacete"
+msgstr ""
+
+#: includes/states/ES.php:9
+#@ ignitewoo_events
+msgid "Alicante"
+msgstr ""
+
+#: includes/states/ES.php:10
+#@ ignitewoo_events
+msgid "Almer&iacute;a"
+msgstr ""
+
+#: includes/states/ES.php:11
+#@ ignitewoo_events
+msgid "Asturias"
+msgstr ""
+
+#: includes/states/ES.php:12
+#@ ignitewoo_events
+msgid "&Aacute;vila"
+msgstr ""
+
+#: includes/states/ES.php:13
+#@ ignitewoo_events
+msgid "Badajoz"
+msgstr ""
+
+#: includes/states/ES.php:14
+#@ ignitewoo_events
+msgid "Baleares"
+msgstr ""
+
+#: includes/states/ES.php:15
+#@ ignitewoo_events
+msgid "Barcelona"
+msgstr ""
+
+#: includes/states/ES.php:16
+#@ ignitewoo_events
+msgid "Burgos"
+msgstr ""
+
+#: includes/states/ES.php:17
+#@ ignitewoo_events
+msgid "C&aacute;ceres"
+msgstr ""
+
+#: includes/states/ES.php:18
+#@ ignitewoo_events
+msgid "C&aacute;diz"
+msgstr ""
+
+#: includes/states/ES.php:19
+#@ ignitewoo_events
+msgid "Cantabria"
+msgstr ""
+
+#: includes/states/ES.php:20
+#@ ignitewoo_events
+msgid "Castell&oacute;n"
+msgstr ""
+
+#: includes/states/ES.php:21
+#@ ignitewoo_events
+msgid "Ceuta"
+msgstr ""
+
+#: includes/states/ES.php:22
+#@ ignitewoo_events
+msgid "Ciudad Real"
+msgstr ""
+
+#: includes/states/ES.php:23
+#@ ignitewoo_events
+msgid "C&oacute;rdoba"
+msgstr ""
+
+#: includes/states/ES.php:24
+#@ ignitewoo_events
+msgid "Cuenca"
+msgstr ""
+
+#: includes/states/ES.php:25
+#@ ignitewoo_events
+msgid "Girona"
+msgstr ""
+
+#: includes/states/ES.php:26
+#@ ignitewoo_events
+msgid "Granada"
+msgstr ""
+
+#: includes/states/ES.php:27
+#@ ignitewoo_events
+msgid "Guadalajara"
+msgstr ""
+
+#: includes/states/ES.php:28
+#@ ignitewoo_events
+msgid "Guip&uacute;zcoa"
+msgstr ""
+
+#: includes/states/ES.php:29
+#@ ignitewoo_events
+msgid "Huelva"
+msgstr ""
+
+#: includes/states/ES.php:30
+#@ ignitewoo_events
+msgid "Huesca"
+msgstr ""
+
+#: includes/states/ES.php:31
+#@ ignitewoo_events
+msgid "Ja&eacute;n"
+msgstr ""
+
+#: includes/states/ES.php:32
+#@ ignitewoo_events
+msgid "La Rioja"
+msgstr ""
+
+#: includes/states/ES.php:33
+#@ ignitewoo_events
+msgid "Las Palmas"
+msgstr ""
+
+#: includes/states/ES.php:34
+#@ ignitewoo_events
+msgid "Le&oacute;n"
+msgstr ""
+
+#: includes/states/ES.php:35
+#@ ignitewoo_events
+msgid "Lleida"
+msgstr ""
+
+#: includes/states/ES.php:36
+#@ ignitewoo_events
+msgid "Lugo"
+msgstr ""
+
+#: includes/states/ES.php:37
+#@ ignitewoo_events
+msgid "Madrid"
+msgstr ""
+
+#: includes/states/ES.php:38
+#@ ignitewoo_events
+msgid "M&aacute;laga"
+msgstr ""
+
+#: includes/states/ES.php:39
+#@ ignitewoo_events
+msgid "Melilla"
+msgstr ""
+
+#: includes/states/ES.php:40
+#@ ignitewoo_events
+msgid "Murcia"
+msgstr ""
+
+#: includes/states/ES.php:41
+#@ ignitewoo_events
+msgid "Navarra"
+msgstr ""
+
+#: includes/states/ES.php:42
+#@ ignitewoo_events
+msgid "Ourense"
+msgstr ""
+
+#: includes/states/ES.php:43
+#@ ignitewoo_events
+msgid "Palencia"
+msgstr ""
+
+#: includes/states/ES.php:44
+#@ ignitewoo_events
+msgid "Pontevedra"
+msgstr ""
+
+#: includes/states/ES.php:45
+#@ ignitewoo_events
+msgid "Salamanca"
+msgstr ""
+
+#: includes/states/ES.php:46
+#@ ignitewoo_events
+msgid "Santa Cruz de Tenerife"
+msgstr ""
+
+#: includes/states/ES.php:47
+#@ ignitewoo_events
+msgid "Segovia"
+msgstr ""
+
+#: includes/states/ES.php:48
+#@ ignitewoo_events
+msgid "Sevilla"
+msgstr ""
+
+#: includes/states/ES.php:49
+#@ ignitewoo_events
+msgid "Soria"
+msgstr ""
+
+#: includes/states/ES.php:50
+#@ ignitewoo_events
+msgid "Tarragona"
+msgstr ""
+
+#: includes/states/ES.php:51
+#@ ignitewoo_events
+msgid "Teruel"
+msgstr ""
+
+#: includes/states/ES.php:52
+#@ ignitewoo_events
+msgid "Toledo"
+msgstr ""
+
+#: includes/states/ES.php:53
+#@ ignitewoo_events
+msgid "Valencia"
+msgstr ""
+
+#: includes/states/ES.php:54
+#@ ignitewoo_events
+msgid "Valladolid"
+msgstr ""
+
+#: includes/states/ES.php:55
+#@ ignitewoo_events
+msgid "Vizcaya"
+msgstr ""
+
+#: includes/states/ES.php:56
+#@ ignitewoo_events
+msgid "Zamora"
+msgstr ""
+
+#: includes/states/ES.php:57
+#@ ignitewoo_events
+msgid "Zaragoza"
+msgstr ""
+
+#: includes/states/HK.php:6
+#@ ignitewoo_events
+msgid "Hong Kong Island"
+msgstr ""
+
+#: includes/states/HK.php:7
+#@ ignitewoo_events
+msgid "Kowloon"
+msgstr ""
+
+#: includes/states/HK.php:8
+#@ ignitewoo_events
+msgid "New Territories"
+msgstr ""
+
+#: includes/states/HU.php:6
+#@ ignitewoo_events
+msgid "Bács-Kiskun"
+msgstr ""
+
+#: includes/states/HU.php:7
+#@ ignitewoo_events
+msgid "Békés"
+msgstr ""
+
+#: includes/states/HU.php:8
+#@ ignitewoo_events
+msgid "Baranya"
+msgstr ""
+
+#: includes/states/HU.php:9
+#@ ignitewoo_events
+msgid "Borsod-Abaúj-Zemplén"
+msgstr ""
+
+#: includes/states/HU.php:10
+#@ ignitewoo_events
+msgid "Budapest"
+msgstr ""
+
+#: includes/states/HU.php:11
+#@ ignitewoo_events
+msgid "Csongrád"
+msgstr ""
+
+#: includes/states/HU.php:12
+#@ ignitewoo_events
+msgid "Fejér"
+msgstr ""
+
+#: includes/states/HU.php:13
+#@ ignitewoo_events
+msgid "Győr-Moson-Sopron"
+msgstr ""
+
+#: includes/states/HU.php:14
+#@ ignitewoo_events
+msgid "Hajdú-Bihar"
+msgstr ""
+
+#: includes/states/HU.php:15
+#@ ignitewoo_events
+msgid "Heves"
+msgstr ""
+
+#: includes/states/HU.php:16
+#@ ignitewoo_events
+msgid "Jász-Nagykun-Szolnok"
+msgstr ""
+
+#: includes/states/HU.php:17
+#@ ignitewoo_events
+msgid "Komárom-Esztergom"
+msgstr ""
+
+#: includes/states/HU.php:18
+#@ ignitewoo_events
+msgid "Nógrád"
+msgstr ""
+
+#: includes/states/HU.php:19
+#@ ignitewoo_events
+msgid "Pest"
+msgstr ""
+
+#: includes/states/HU.php:20
+#@ ignitewoo_events
+msgid "Somogy"
+msgstr ""
+
+#: includes/states/HU.php:21
+#@ ignitewoo_events
+msgid "Szabolcs-Szatmár-Bereg"
+msgstr ""
+
+#: includes/states/HU.php:22
+#@ ignitewoo_events
+msgid "Tolna"
+msgstr ""
+
+#: includes/states/HU.php:23
+#@ ignitewoo_events
+msgid "Vas"
+msgstr ""
+
+#: includes/states/HU.php:24
+#@ ignitewoo_events
+msgid "Veszprém"
+msgstr ""
+
+#: includes/states/HU.php:25
+#@ ignitewoo_events
+msgid "Zala"
+msgstr ""
+
+#: includes/states/HZ.php:6
+#: includes/states/NZ.php:7
+#@ ignitewoo_events
+msgid "Auckland"
+msgstr ""
+
+#: includes/states/HZ.php:7
+#: includes/states/NZ.php:9
+#@ ignitewoo_events
+msgid "Bay of Plenty"
+msgstr ""
+
+#: includes/states/HZ.php:8
+#: includes/states/NZ.php:18
+#@ ignitewoo_events
+msgid "Canterbury"
+msgstr ""
+
+#: includes/states/HZ.php:9
+#: includes/states/NZ.php:11
+#@ ignitewoo_events
+msgid "Hawke&rsquo;s Bay"
+msgstr ""
+
+#: includes/states/HZ.php:10
+#: includes/states/NZ.php:12
+#@ ignitewoo_events
+msgid "Manawatu-Wanganui"
+msgstr ""
+
+#: includes/states/HZ.php:11
+#: includes/states/NZ.php:15
+#@ ignitewoo_events
+msgid "Marlborough"
+msgstr ""
+
+#: includes/states/HZ.php:12
+#: includes/states/NZ.php:14
+#@ ignitewoo_events
+msgid "Nelson"
+msgstr ""
+
+#: includes/states/HZ.php:13
+#: includes/states/NZ.php:6
+#@ ignitewoo_events
+msgid "Northland"
+msgstr ""
+
+#: includes/states/HZ.php:14
+#: includes/states/NZ.php:19
+#@ ignitewoo_events
+msgid "Otago"
+msgstr ""
+
+#: includes/states/HZ.php:15
+#: includes/states/NZ.php:20
+#@ ignitewoo_events
+msgid "Southland"
+msgstr ""
+
+#: includes/states/HZ.php:16
+#: includes/states/NZ.php:10
+#@ ignitewoo_events
+msgid "Taranaki"
+msgstr ""
+
+#: includes/states/HZ.php:17
+#: includes/states/NZ.php:16
+#@ ignitewoo_events
+msgid "Tasman"
+msgstr ""
+
+#: includes/states/HZ.php:18
+#: includes/states/NZ.php:8
+#@ ignitewoo_events
+msgid "Waikato"
+msgstr ""
+
+#: includes/states/HZ.php:19
+#: includes/states/NZ.php:13
+#@ ignitewoo_events
+msgid "Wellington"
+msgstr ""
+
+#: includes/states/HZ.php:20
+#: includes/states/NZ.php:17
+#@ ignitewoo_events
+msgid "West Coast"
+msgstr ""
+
+#: includes/states/ID.php:6
+#@ ignitewoo_events
+msgid "Daerah Istimewa Aceh"
+msgstr ""
+
+#: includes/states/ID.php:7
+#@ ignitewoo_events
+msgid "Sumatera Utara"
+msgstr ""
+
+#: includes/states/ID.php:8
+#@ ignitewoo_events
+msgid "Sumatera Barat"
+msgstr ""
+
+#: includes/states/ID.php:9
+#@ ignitewoo_events
+msgid "Riau"
+msgstr ""
+
+#: includes/states/ID.php:10
+#@ ignitewoo_events
+msgid "Kepulauan Riau"
+msgstr ""
+
+#: includes/states/ID.php:11
+#@ ignitewoo_events
+msgid "Jambi"
+msgstr ""
+
+#: includes/states/ID.php:12
+#@ ignitewoo_events
+msgid "Sumatera Selatan"
+msgstr ""
+
+#: includes/states/ID.php:13
+#@ ignitewoo_events
+msgid "Bangka Belitung"
+msgstr ""
+
+#: includes/states/ID.php:14
+#@ ignitewoo_events
+msgid "Bengkulu"
+msgstr ""
+
+#: includes/states/ID.php:15
+#@ ignitewoo_events
+msgid "Lampung"
+msgstr ""
+
+#: includes/states/ID.php:16
+#@ ignitewoo_events
+msgid "DKI Jakarta"
+msgstr ""
+
+#: includes/states/ID.php:17
+#@ ignitewoo_events
+msgid "Jawa Barat"
+msgstr ""
+
+#: includes/states/ID.php:18
+#@ ignitewoo_events
+msgid "Banten"
+msgstr ""
+
+#: includes/states/ID.php:19
+#@ ignitewoo_events
+msgid "Jawa Tengah"
+msgstr ""
+
+#: includes/states/ID.php:20
+#@ ignitewoo_events
+msgid "Jawa Timur"
+msgstr ""
+
+#: includes/states/ID.php:21
+#@ ignitewoo_events
+msgid "Daerah Istimewa Yogyakarta"
+msgstr ""
+
+#: includes/states/ID.php:22
+#@ ignitewoo_events
+msgid "Bali"
+msgstr ""
+
+#: includes/states/ID.php:23
+#@ ignitewoo_events
+msgid "Nusa Tenggara Barat"
+msgstr ""
+
+#: includes/states/ID.php:24
+#@ ignitewoo_events
+msgid "Nusa Tenggara Timur"
+msgstr ""
+
+#: includes/states/ID.php:25
+#@ ignitewoo_events
+msgid "Kalimantan Barat"
+msgstr ""
+
+#: includes/states/ID.php:26
+#@ ignitewoo_events
+msgid "Kalimantan Tengah"
+msgstr ""
+
+#: includes/states/ID.php:27
+#@ ignitewoo_events
+msgid "Kalimantan Timur"
+msgstr ""
+
+#: includes/states/ID.php:28
+#@ ignitewoo_events
+msgid "Kalimantan Selatan"
+msgstr ""
+
+#: includes/states/ID.php:29
+#@ ignitewoo_events
+msgid "Kalimantan Utara"
+msgstr ""
+
+#: includes/states/ID.php:30
+#@ ignitewoo_events
+msgid "Sulawesi Utara"
+msgstr ""
+
+#: includes/states/ID.php:31
+#@ ignitewoo_events
+msgid "Sulawesi Tengah"
+msgstr ""
+
+#: includes/states/ID.php:32
+#@ ignitewoo_events
+msgid "Sulawesi Tenggara"
+msgstr ""
+
+#: includes/states/ID.php:33
+#@ ignitewoo_events
+msgid "Sulawesi Barat"
+msgstr ""
+
+#: includes/states/ID.php:34
+#@ ignitewoo_events
+msgid "Sulawesi Selatan"
+msgstr ""
+
+#: includes/states/ID.php:35
+#@ ignitewoo_events
+msgid "Gorontalo"
+msgstr ""
+
+#: includes/states/ID.php:36
+#@ ignitewoo_events
+msgid "Maluku"
+msgstr ""
+
+#: includes/states/ID.php:37
+#@ ignitewoo_events
+msgid "Maluku Utara"
+msgstr ""
+
+#: includes/states/ID.php:38
+#@ ignitewoo_events
+msgid "Papua"
+msgstr ""
+
+#: includes/states/ID.php:39
+#@ ignitewoo_events
+msgid "Papua Barat"
+msgstr ""
+
+#: includes/states/IN.php:6
+#@ ignitewoo_events
+msgid "Andra Pradesh"
+msgstr ""
+
+#: includes/states/IN.php:7
+#@ ignitewoo_events
+msgid "Arunachal Pradesh"
+msgstr ""
+
+#: includes/states/IN.php:8
+#@ ignitewoo_events
+msgid "Assam"
+msgstr ""
+
+#: includes/states/IN.php:9
+#@ ignitewoo_events
+msgid "Bihar"
+msgstr ""
+
+#: includes/states/IN.php:10
+#@ ignitewoo_events
+msgid "Chhattisgarh"
+msgstr ""
+
+#: includes/states/IN.php:11
+#@ ignitewoo_events
+msgid "Goa"
+msgstr ""
+
+#: includes/states/IN.php:12
+#@ ignitewoo_events
+msgid "Gujarat"
+msgstr ""
+
+#: includes/states/IN.php:13
+#@ ignitewoo_events
+msgid "Haryana"
+msgstr ""
+
+#: includes/states/IN.php:14
+#@ ignitewoo_events
+msgid "Himachal Pradesh"
+msgstr ""
+
+#: includes/states/IN.php:15
+#@ ignitewoo_events
+msgid "Jammu and Kashmir"
+msgstr ""
+
+#: includes/states/IN.php:16
+#@ ignitewoo_events
+msgid "Jharkhand"
+msgstr ""
+
+#: includes/states/IN.php:17
+#@ ignitewoo_events
+msgid "Karnataka"
+msgstr ""
+
+#: includes/states/IN.php:18
+#@ ignitewoo_events
+msgid "Kerala"
+msgstr ""
+
+#: includes/states/IN.php:19
+#@ ignitewoo_events
+msgid "Madhya Pradesh"
+msgstr ""
+
+#: includes/states/IN.php:20
+#@ ignitewoo_events
+msgid "Maharashtra"
+msgstr ""
+
+#: includes/states/IN.php:21
+#@ ignitewoo_events
+msgid "Manipur"
+msgstr ""
+
+#: includes/states/IN.php:22
+#@ ignitewoo_events
+msgid "Meghalaya"
+msgstr ""
+
+#: includes/states/IN.php:23
+#@ ignitewoo_events
+msgid "Mizoram"
+msgstr ""
+
+#: includes/states/IN.php:24
+#@ ignitewoo_events
+msgid "Nagaland"
+msgstr ""
+
+#: includes/states/IN.php:25
+#@ ignitewoo_events
+msgid "Orissa"
+msgstr ""
+
+#: includes/states/IN.php:26
+#@ ignitewoo_events
+msgid "Punjab"
+msgstr ""
+
+#: includes/states/IN.php:27
+#@ ignitewoo_events
+msgid "Rajasthan"
+msgstr ""
+
+#: includes/states/IN.php:28
+#@ ignitewoo_events
+msgid "Sikkim"
+msgstr ""
+
+#: includes/states/IN.php:29
+#@ ignitewoo_events
+msgid "Tamil Nadu"
+msgstr ""
+
+#: includes/states/IN.php:30
+#@ ignitewoo_events
+msgid "Tripura"
+msgstr ""
+
+#: includes/states/IN.php:31
+#@ ignitewoo_events
+msgid "Uttaranchal"
+msgstr ""
+
+#: includes/states/IN.php:32
+#@ ignitewoo_events
+msgid "Uttar Pradesh"
+msgstr ""
+
+#: includes/states/IN.php:33
+#@ ignitewoo_events
+msgid "West Bengal"
+msgstr ""
+
+#: includes/states/IN.php:34
+#@ ignitewoo_events
+msgid "Andaman and Nicobar Islands"
+msgstr ""
+
+#: includes/states/IN.php:35
+#@ ignitewoo_events
+msgid "Chandigarh"
+msgstr ""
+
+#: includes/states/IN.php:36
+#@ ignitewoo_events
+msgid "Dadar and Nagar Haveli"
+msgstr ""
+
+#: includes/states/IN.php:37
+#@ ignitewoo_events
+msgid "Daman and Diu"
+msgstr ""
+
+#: includes/states/IN.php:38
+#@ ignitewoo_events
+msgid "Delhi"
+msgstr ""
+
+#: includes/states/IN.php:39
+#@ ignitewoo_events
+msgid "Lakshadeep"
+msgstr ""
+
+#: includes/states/IN.php:40
+#@ ignitewoo_events
+msgid "Pondicherry (Puducherry)"
+msgstr ""
+
+#: includes/states/MY.php:6
+#@ ignitewoo_events
+msgid "Johor"
+msgstr ""
+
+#: includes/states/MY.php:7
+#@ ignitewoo_events
+msgid "Kedah"
+msgstr ""
+
+#: includes/states/MY.php:8
+#@ ignitewoo_events
+msgid "Kelantan"
+msgstr ""
+
+#: includes/states/MY.php:9
+#@ ignitewoo_events
+msgid "Melaka"
+msgstr ""
+
+#: includes/states/MY.php:10
+#@ ignitewoo_events
+msgid "Negeri Sembilan"
+msgstr ""
+
+#: includes/states/MY.php:11
+#@ ignitewoo_events
+msgid "Pahang"
+msgstr ""
+
+#: includes/states/MY.php:12
+#@ ignitewoo_events
+msgid "Perak"
+msgstr ""
+
+#: includes/states/MY.php:13
+#@ ignitewoo_events
+msgid "Perlis"
+msgstr ""
+
+#: includes/states/MY.php:14
+#@ ignitewoo_events
+msgid "Pulau Pinang"
+msgstr ""
+
+#: includes/states/MY.php:15
+#@ ignitewoo_events
+msgid "Sabah"
+msgstr ""
+
+#: includes/states/MY.php:16
+#@ ignitewoo_events
+msgid "Sarawak"
+msgstr ""
+
+#: includes/states/MY.php:17
+#@ ignitewoo_events
+msgid "Selangor"
+msgstr ""
+
+#: includes/states/MY.php:18
+#@ ignitewoo_events
+msgid "Terengganu"
+msgstr ""
+
+#: includes/states/MY.php:19
+#@ ignitewoo_events
+msgid "W.P. Kuala Lumpur"
+msgstr ""
+
+#: includes/states/MY.php:20
+#@ ignitewoo_events
+msgid "W.P. Labuan"
+msgstr ""
+
+#: includes/states/MY.php:21
+#@ ignitewoo_events
+msgid "W.P. Putrajaya"
+msgstr ""
+
+#: includes/states/TH.php:6
+#@ ignitewoo_events
+msgid "Amnat Charoen (&#3629;&#3635;&#3609;&#3634;&#3592;&#3648;&#3592;&#3619;&#3636;&#3597;)"
+msgstr ""
+
+#: includes/states/TH.php:7
+#@ ignitewoo_events
+msgid "Ang Thong (&#3629;&#3656;&#3634;&#3591;&#3607;&#3629;&#3591;)"
+msgstr ""
+
+#: includes/states/TH.php:8
+#@ ignitewoo_events
+msgid "Ayutthaya (&#3614;&#3619;&#3632;&#3609;&#3588;&#3619;&#3624;&#3619;&#3637;&#3629;&#3618;&#3640;&#3608;&#3618;&#3634;)"
+msgstr ""
+
+#: includes/states/TH.php:9
+#@ ignitewoo_events
+msgid "Bangkok (&#3585;&#3619;&#3640;&#3591;&#3648;&#3607;&#3614;&#3617;&#3627;&#3634;&#3609;&#3588;&#3619;)"
+msgstr ""
+
+#: includes/states/TH.php:10
+#@ ignitewoo_events
+msgid "Bueng Kan (&#3610;&#3638;&#3591;&#3585;&#3634;&#3628;)"
+msgstr ""
+
+#: includes/states/TH.php:11
+#@ ignitewoo_events
+msgid "Buri Ram (&#3610;&#3640;&#3619;&#3637;&#3619;&#3633;&#3617;&#3618;&#3660;)"
+msgstr ""
+
+#: includes/states/TH.php:12
+#@ ignitewoo_events
+msgid "Chachoengsao (&#3593;&#3632;&#3648;&#3594;&#3636;&#3591;&#3648;&#3607;&#3619;&#3634;)"
+msgstr ""
+
+#: includes/states/TH.php:13
+#@ ignitewoo_events
+msgid "Chai Nat (&#3594;&#3633;&#3618;&#3609;&#3634;&#3607;)"
+msgstr ""
+
+#: includes/states/TH.php:14
+#@ ignitewoo_events
+msgid "Chaiyaphum (&#3594;&#3633;&#3618;&#3616;&#3641;&#3617;&#3636;)"
+msgstr ""
+
+#: includes/states/TH.php:15
+#@ ignitewoo_events
+msgid "Chanthaburi (&#3592;&#3633;&#3609;&#3607;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:16
+#@ ignitewoo_events
+msgid "Chiang Mai (&#3648;&#3594;&#3637;&#3618;&#3591;&#3651;&#3627;&#3617;&#3656;)"
+msgstr ""
+
+#: includes/states/TH.php:17
+#@ ignitewoo_events
+msgid "Chiang Rai (&#3648;&#3594;&#3637;&#3618;&#3591;&#3619;&#3634;&#3618;)"
+msgstr ""
+
+#: includes/states/TH.php:18
+#@ ignitewoo_events
+msgid "Chonburi (&#3594;&#3621;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:19
+#@ ignitewoo_events
+msgid "Chumphon (&#3594;&#3640;&#3617;&#3614;&#3619;)"
+msgstr ""
+
+#: includes/states/TH.php:20
+#@ ignitewoo_events
+msgid "Kalasin (&#3585;&#3634;&#3628;&#3626;&#3636;&#3609;&#3608;&#3640;&#3660;)"
+msgstr ""
+
+#: includes/states/TH.php:21
+#@ ignitewoo_events
+msgid "Kamphaeng Phet (&#3585;&#3635;&#3649;&#3614;&#3591;&#3648;&#3614;&#3594;&#3619;)"
+msgstr ""
+
+#: includes/states/TH.php:22
+#@ ignitewoo_events
+msgid "Kanchanaburi (&#3585;&#3634;&#3597;&#3592;&#3609;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:23
+#@ ignitewoo_events
+msgid "Khon Kaen (&#3586;&#3629;&#3609;&#3649;&#3585;&#3656;&#3609;)"
+msgstr ""
+
+#: includes/states/TH.php:24
+#@ ignitewoo_events
+msgid "Krabi (&#3585;&#3619;&#3632;&#3610;&#3637;&#3656;)"
+msgstr ""
+
+#: includes/states/TH.php:25
+#@ ignitewoo_events
+msgid "Lampang (&#3621;&#3635;&#3611;&#3634;&#3591;)"
+msgstr ""
+
+#: includes/states/TH.php:26
+#@ ignitewoo_events
+msgid "Lamphun (&#3621;&#3635;&#3614;&#3641;&#3609;)"
+msgstr ""
+
+#: includes/states/TH.php:27
+#@ ignitewoo_events
+msgid "Loei (&#3648;&#3621;&#3618;)"
+msgstr ""
+
+#: includes/states/TH.php:28
+#@ ignitewoo_events
+msgid "Lopburi (&#3621;&#3614;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:29
+#@ ignitewoo_events
+msgid "Mae Hong Son (&#3649;&#3617;&#3656;&#3630;&#3656;&#3629;&#3591;&#3626;&#3629;&#3609;)"
+msgstr ""
+
+#: includes/states/TH.php:30
+#@ ignitewoo_events
+msgid "Maha Sarakham (&#3617;&#3627;&#3634;&#3626;&#3634;&#3619;&#3588;&#3634;&#3617;)"
+msgstr ""
+
+#: includes/states/TH.php:31
+#@ ignitewoo_events
+msgid "Mukdahan (&#3617;&#3640;&#3585;&#3604;&#3634;&#3627;&#3634;&#3619;)"
+msgstr ""
+
+#: includes/states/TH.php:32
+#@ ignitewoo_events
+msgid "Nakhon Nayok (&#3609;&#3588;&#3619;&#3609;&#3634;&#3618;&#3585;)"
+msgstr ""
+
+#: includes/states/TH.php:33
+#@ ignitewoo_events
+msgid "Nakhon Pathom (&#3609;&#3588;&#3619;&#3611;&#3600;&#3617;)"
+msgstr ""
+
+#: includes/states/TH.php:34
+#@ ignitewoo_events
+msgid "Nakhon Phanom (&#3609;&#3588;&#3619;&#3614;&#3609;&#3617;)"
+msgstr ""
+
+#: includes/states/TH.php:35
+#@ ignitewoo_events
+msgid "Nakhon Ratchasima (&#3609;&#3588;&#3619;&#3619;&#3634;&#3594;&#3626;&#3637;&#3617;&#3634;)"
+msgstr ""
+
+#: includes/states/TH.php:36
+#@ ignitewoo_events
+msgid "Nakhon Sawan (&#3609;&#3588;&#3619;&#3626;&#3623;&#3619;&#3619;&#3588;&#3660;)"
+msgstr ""
+
+#: includes/states/TH.php:37
+#@ ignitewoo_events
+msgid "Nakhon Si Thammarat (&#3609;&#3588;&#3619;&#3624;&#3619;&#3637;&#3608;&#3619;&#3619;&#3617;&#3619;&#3634;&#3594;)"
+msgstr ""
+
+#: includes/states/TH.php:38
+#@ ignitewoo_events
+msgid "Nan (&#3609;&#3656;&#3634;&#3609;)"
+msgstr ""
+
+#: includes/states/TH.php:39
+#@ ignitewoo_events
+msgid "Narathiwat (&#3609;&#3619;&#3634;&#3608;&#3636;&#3623;&#3634;&#3626;)"
+msgstr ""
+
+#: includes/states/TH.php:40
+#@ ignitewoo_events
+msgid "Nong Bua Lam Phu (&#3627;&#3609;&#3629;&#3591;&#3610;&#3633;&#3623;&#3621;&#3635;&#3616;&#3641;)"
+msgstr ""
+
+#: includes/states/TH.php:41
+#@ ignitewoo_events
+msgid "Nong Khai (&#3627;&#3609;&#3629;&#3591;&#3588;&#3634;&#3618;)"
+msgstr ""
+
+#: includes/states/TH.php:42
+#@ ignitewoo_events
+msgid "Nonthaburi (&#3609;&#3609;&#3607;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:43
+#@ ignitewoo_events
+msgid "Pathum Thani (&#3611;&#3607;&#3640;&#3617;&#3608;&#3634;&#3609;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:44
+#@ ignitewoo_events
+msgid "Pattani (&#3611;&#3633;&#3605;&#3605;&#3634;&#3609;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:45
+#@ ignitewoo_events
+msgid "Phang Nga (&#3614;&#3633;&#3591;&#3591;&#3634;)"
+msgstr ""
+
+#: includes/states/TH.php:46
+#@ ignitewoo_events
+msgid "Phatthalung (&#3614;&#3633;&#3607;&#3621;&#3640;&#3591;)"
+msgstr ""
+
+#: includes/states/TH.php:47
+#@ ignitewoo_events
+msgid "Phayao (&#3614;&#3632;&#3648;&#3618;&#3634;)"
+msgstr ""
+
+#: includes/states/TH.php:48
+#@ ignitewoo_events
+msgid "Phetchabun (&#3648;&#3614;&#3594;&#3619;&#3610;&#3641;&#3619;&#3603;&#3660;)"
+msgstr ""
+
+#: includes/states/TH.php:49
+#@ ignitewoo_events
+msgid "Phetchaburi (&#3648;&#3614;&#3594;&#3619;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:50
+#@ ignitewoo_events
+msgid "Phichit (&#3614;&#3636;&#3592;&#3636;&#3605;&#3619;)"
+msgstr ""
+
+#: includes/states/TH.php:51
+#@ ignitewoo_events
+msgid "Phitsanulok (&#3614;&#3636;&#3625;&#3603;&#3640;&#3650;&#3621;&#3585;)"
+msgstr ""
+
+#: includes/states/TH.php:52
+#@ ignitewoo_events
+msgid "Phrae (&#3649;&#3614;&#3619;&#3656;)"
+msgstr ""
+
+#: includes/states/TH.php:53
+#@ ignitewoo_events
+msgid "Phuket (&#3616;&#3641;&#3648;&#3585;&#3655;&#3605;)"
+msgstr ""
+
+#: includes/states/TH.php:54
+#@ ignitewoo_events
+msgid "Prachin Buri (&#3611;&#3619;&#3634;&#3592;&#3637;&#3609;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:55
+#@ ignitewoo_events
+msgid "Prachuap Khiri Khan (&#3611;&#3619;&#3632;&#3592;&#3623;&#3610;&#3588;&#3637;&#3619;&#3637;&#3586;&#3633;&#3609;&#3608;&#3660;)"
+msgstr ""
+
+#: includes/states/TH.php:56
+#@ ignitewoo_events
+msgid "Ranong (&#3619;&#3632;&#3609;&#3629;&#3591;)"
+msgstr ""
+
+#: includes/states/TH.php:57
+#@ ignitewoo_events
+msgid "Ratchaburi (&#3619;&#3634;&#3594;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:58
+#@ ignitewoo_events
+msgid "Rayong (&#3619;&#3632;&#3618;&#3629;&#3591;)"
+msgstr ""
+
+#: includes/states/TH.php:59
+#@ ignitewoo_events
+msgid "Roi Et (&#3619;&#3657;&#3629;&#3618;&#3648;&#3629;&#3655;&#3604;)"
+msgstr ""
+
+#: includes/states/TH.php:60
+#@ ignitewoo_events
+msgid "Sa Kaeo (&#3626;&#3619;&#3632;&#3649;&#3585;&#3657;&#3623;)"
+msgstr ""
+
+#: includes/states/TH.php:61
+#@ ignitewoo_events
+msgid "Sakon Nakhon (&#3626;&#3585;&#3621;&#3609;&#3588;&#3619;)"
+msgstr ""
+
+#: includes/states/TH.php:62
+#@ ignitewoo_events
+msgid "Samut Prakan (&#3626;&#3617;&#3640;&#3607;&#3619;&#3611;&#3619;&#3634;&#3585;&#3634;&#3619;)"
+msgstr ""
+
+#: includes/states/TH.php:63
+#@ ignitewoo_events
+msgid "Samut Sakhon (&#3626;&#3617;&#3640;&#3607;&#3619;&#3626;&#3634;&#3588;&#3619;)"
+msgstr ""
+
+#: includes/states/TH.php:64
+#@ ignitewoo_events
+msgid "Samut Songkhram (&#3626;&#3617;&#3640;&#3607;&#3619;&#3626;&#3591;&#3588;&#3619;&#3634;&#3617;)"
+msgstr ""
+
+#: includes/states/TH.php:65
+#@ ignitewoo_events
+msgid "Saraburi (&#3626;&#3619;&#3632;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:66
+#@ ignitewoo_events
+msgid "Satun (&#3626;&#3605;&#3641;&#3621;)"
+msgstr ""
+
+#: includes/states/TH.php:67
+#@ ignitewoo_events
+msgid "Sing Buri (&#3626;&#3636;&#3591;&#3627;&#3660;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:68
+#@ ignitewoo_events
+msgid "Sisaket (&#3624;&#3619;&#3637;&#3626;&#3632;&#3648;&#3585;&#3625;)"
+msgstr ""
+
+#: includes/states/TH.php:69
+#@ ignitewoo_events
+msgid "Songkhla (&#3626;&#3591;&#3586;&#3621;&#3634;)"
+msgstr ""
+
+#: includes/states/TH.php:70
+#@ ignitewoo_events
+msgid "Sukhothai (&#3626;&#3640;&#3650;&#3586;&#3607;&#3633;&#3618;)"
+msgstr ""
+
+#: includes/states/TH.php:71
+#@ ignitewoo_events
+msgid "Suphan Buri (&#3626;&#3640;&#3614;&#3619;&#3619;&#3603;&#3610;&#3640;&#3619;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:72
+#@ ignitewoo_events
+msgid "Surat Thani (&#3626;&#3640;&#3619;&#3634;&#3625;&#3598;&#3619;&#3660;&#3608;&#3634;&#3609;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:73
+#@ ignitewoo_events
+msgid "Surin (&#3626;&#3640;&#3619;&#3636;&#3609;&#3607;&#3619;&#3660;)"
+msgstr ""
+
+#: includes/states/TH.php:74
+#@ ignitewoo_events
+msgid "Tak (&#3605;&#3634;&#3585;)"
+msgstr ""
+
+#: includes/states/TH.php:75
+#@ ignitewoo_events
+msgid "Trang (&#3605;&#3619;&#3633;&#3591;)"
+msgstr ""
+
+#: includes/states/TH.php:76
+#@ ignitewoo_events
+msgid "Trat (&#3605;&#3619;&#3634;&#3604;)"
+msgstr ""
+
+#: includes/states/TH.php:77
+#@ ignitewoo_events
+msgid "Ubon Ratchathani (&#3629;&#3640;&#3610;&#3621;&#3619;&#3634;&#3594;&#3608;&#3634;&#3609;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:78
+#@ ignitewoo_events
+msgid "Udon Thani (&#3629;&#3640;&#3604;&#3619;&#3608;&#3634;&#3609;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:79
+#@ ignitewoo_events
+msgid "Uthai Thani (&#3629;&#3640;&#3607;&#3633;&#3618;&#3608;&#3634;&#3609;&#3637;)"
+msgstr ""
+
+#: includes/states/TH.php:80
+#@ ignitewoo_events
+msgid "Uttaradit (&#3629;&#3640;&#3605;&#3619;&#3604;&#3636;&#3605;&#3606;&#3660;)"
+msgstr ""
+
+#: includes/states/TH.php:81
+#@ ignitewoo_events
+msgid "Yala (&#3618;&#3632;&#3621;&#3634;)"
+msgstr ""
+
+#: includes/states/TH.php:82
+#@ ignitewoo_events
+msgid "Yasothon (&#3618;&#3650;&#3626;&#3608;&#3619;)"
+msgstr ""
+
+#: includes/states/US.php:6
+#@ woocommerce
+msgid "Alabama"
+msgstr ""
+
+#: includes/states/US.php:7
+#@ woocommerce
+msgid "Alaska"
+msgstr ""
+
+#: includes/states/US.php:8
+#@ woocommerce
+msgid "Arizona"
+msgstr ""
+
+#: includes/states/US.php:9
+#@ woocommerce
+msgid "Arkansas"
+msgstr ""
+
+#: includes/states/US.php:10
+#@ woocommerce
+msgid "California"
+msgstr ""
+
+#: includes/states/US.php:11
+#@ woocommerce
+msgid "Colorado"
+msgstr ""
+
+#: includes/states/US.php:12
+#@ woocommerce
+msgid "Connecticut"
+msgstr ""
+
+#: includes/states/US.php:13
+#@ woocommerce
+msgid "Delaware"
+msgstr ""
+
+#: includes/states/US.php:14
+#@ woocommerce
+msgid "District Of Columbia"
+msgstr ""
+
+#: includes/states/US.php:15
+#@ woocommerce
+msgid "Florida"
+msgstr ""
+
+#: includes/states/US.php:17
+#@ woocommerce
+msgid "Hawaii"
+msgstr ""
+
+#: includes/states/US.php:18
+#@ woocommerce
+msgid "Idaho"
+msgstr ""
+
+#: includes/states/US.php:19
+#@ woocommerce
+msgid "Illinois"
+msgstr ""
+
+#: includes/states/US.php:20
+#@ woocommerce
+msgid "Indiana"
+msgstr ""
+
+#: includes/states/US.php:21
+#@ woocommerce
+msgid "Iowa"
+msgstr ""
+
+#: includes/states/US.php:22
+#@ woocommerce
+msgid "Kansas"
+msgstr ""
+
+#: includes/states/US.php:23
+#@ woocommerce
+msgid "Kentucky"
+msgstr ""
+
+#: includes/states/US.php:24
+#@ woocommerce
+msgid "Louisiana"
+msgstr ""
+
+#: includes/states/US.php:25
+#@ woocommerce
+msgid "Maine"
+msgstr ""
+
+#: includes/states/US.php:26
+#@ woocommerce
+msgid "Maryland"
+msgstr ""
+
+#: includes/states/US.php:27
+#@ woocommerce
+msgid "Massachusetts"
+msgstr ""
+
+#: includes/states/US.php:28
+#@ woocommerce
+msgid "Michigan"
+msgstr ""
+
+#: includes/states/US.php:29
+#@ woocommerce
+msgid "Minnesota"
+msgstr ""
+
+#: includes/states/US.php:30
+#@ woocommerce
+msgid "Mississippi"
+msgstr ""
+
+#: includes/states/US.php:31
+#@ woocommerce
+msgid "Missouri"
+msgstr ""
+
+#: includes/states/US.php:32
+#@ woocommerce
+msgid "Montana"
+msgstr ""
+
+#: includes/states/US.php:33
+#@ woocommerce
+msgid "Nebraska"
+msgstr ""
+
+#: includes/states/US.php:34
+#@ woocommerce
+msgid "Nevada"
+msgstr ""
+
+#: includes/states/US.php:35
+#@ woocommerce
+msgid "New Hampshire"
+msgstr ""
+
+#: includes/states/US.php:36
+#@ woocommerce
+msgid "New Jersey"
+msgstr ""
+
+#: includes/states/US.php:37
+#@ woocommerce
+msgid "New Mexico"
+msgstr ""
+
+#: includes/states/US.php:38
+#@ woocommerce
+msgid "New York"
+msgstr ""
+
+#: includes/states/US.php:39
+#@ woocommerce
+msgid "North Carolina"
+msgstr ""
+
+#: includes/states/US.php:40
+#@ woocommerce
+msgid "North Dakota"
+msgstr ""
+
+#: includes/states/US.php:41
+#@ woocommerce
+msgid "Ohio"
+msgstr ""
+
+#: includes/states/US.php:42
+#@ woocommerce
+msgid "Oklahoma"
+msgstr ""
+
+#: includes/states/US.php:43
+#@ woocommerce
+msgid "Oregon"
+msgstr ""
+
+#: includes/states/US.php:44
+#@ woocommerce
+msgid "Pennsylvania"
+msgstr ""
+
+#: includes/states/US.php:45
+#@ woocommerce
+msgid "Rhode Island"
+msgstr ""
+
+#: includes/states/US.php:46
+#@ woocommerce
+msgid "South Carolina"
+msgstr ""
+
+#: includes/states/US.php:47
+#@ woocommerce
+msgid "South Dakota"
+msgstr ""
+
+#: includes/states/US.php:48
+#@ woocommerce
+msgid "Tennessee"
+msgstr ""
+
+#: includes/states/US.php:49
+#@ woocommerce
+msgid "Texas"
+msgstr ""
+
+#: includes/states/US.php:50
+#@ woocommerce
+msgid "Utah"
+msgstr ""
+
+#: includes/states/US.php:51
+#@ woocommerce
+msgid "Vermont"
+msgstr ""
+
+#: includes/states/US.php:52
+#@ woocommerce
+msgid "Virginia"
+msgstr ""
+
+#: includes/states/US.php:53
+#@ woocommerce
+msgid "Washington"
+msgstr ""
+
+#: includes/states/US.php:54
+#@ woocommerce
+msgid "West Virginia"
+msgstr ""
+
+#: includes/states/US.php:55
+#@ woocommerce
+msgid "Wisconsin"
+msgstr ""
+
+#: includes/states/US.php:56
+#@ woocommerce
+msgid "Wyoming"
+msgstr ""
+
+#: includes/states/US.php:57
+#@ woocommerce
+msgid "Armed Forces (AA)"
+msgstr ""
+
+#: includes/states/US.php:58
+#@ woocommerce
+msgid "Armed Forces (AE)"
+msgstr ""
+
+#: includes/states/US.php:59
+#@ woocommerce
+msgid "Armed Forces (AP)"
+msgstr ""
+
+#: includes/states/US.php:60
+#@ woocommerce
+msgid "American Samoa"
+msgstr ""
+
+#: includes/states/US.php:61
+#@ woocommerce
+msgid "Guam"
+msgstr ""
+
+#: includes/states/US.php:62
+#@ woocommerce
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: includes/states/US.php:63
+#@ woocommerce
+msgid "Puerto Rico"
+msgstr ""
+
+#: includes/states/US.php:64
+#@ woocommerce
+msgid "US Minor Outlying Islands"
+msgstr ""
+
+#: includes/states/US.php:65
+#@ woocommerce
+msgid "US Virgin Islands"
+msgstr ""
+
+#: includes/states/ZA.php:6
+#@ ignitewoo_events
+msgid "Eastern Cape"
+msgstr ""
+
+#: includes/states/ZA.php:7
+#@ ignitewoo_events
+msgid "Free State"
+msgstr ""
+
+#: includes/states/ZA.php:8
+#@ ignitewoo_events
+msgid "Gauteng"
+msgstr ""
+
+#: includes/states/ZA.php:9
+#@ ignitewoo_events
+msgid "KwaZulu-Natal"
+msgstr ""
+
+#: includes/states/ZA.php:10
+#@ ignitewoo_events
+msgid "Limpopo"
+msgstr ""
+
+#: includes/states/ZA.php:11
+#@ ignitewoo_events
+msgid "Mpumalanga"
+msgstr ""
+
+#: includes/states/ZA.php:12
+#@ ignitewoo_events
+msgid "Northern Cape"
+msgstr ""
+
+#: includes/states/ZA.php:13
+#@ ignitewoo_events
+msgid "North West"
+msgstr ""
+
+#: includes/states/ZA.php:14
+#@ ignitewoo_events
+msgid "Western Cape"
+msgstr ""
+
+#: templates/ignitewoo-event-details-template.php:64
+#@ ignitewoo_events
+msgid "Cost"
+msgstr ""
+
+#: templates/ignitewoo-event-details-template.php:84
+#@ ignitewoo_events
+msgid "Event Dates"
+msgstr ""
+
+#: templates/ignitewoo-event-details-template.php:89
+#@ ignitewoo_events
+msgid "Starts"
+msgstr ""
+
+#: templates/ignitewoo-event-details-template.php:91
+#@ ignitewoo_events
+msgid "Ends"
+msgstr ""
+
+#: templates/ignitewoo-event-details-template.php:95
+#@ ignitewoo_events
+msgid "Add To"
+msgstr ""
+
+#: templates/ignitewoo-event-details-template.php:122
+#: templates/ignitewoo-event-details-template.php:129
+#@ ignitewoo_events
+msgid "at"
+msgstr ""
+
+#: templates/ignitewoo-event-details-template.php:144
+#@ ignitewoo_events
+msgid "Add to Google Calendar"
+msgstr ""
+
+#: templates/ignitewoo-event-details-template.php:144
+#@ ignitewoo_events
+msgid "gCal"
+msgstr ""
+
+#: templates/ignitewoo-event-details-template.php:160
+#@ ignitewoo_events
+msgid "Add to Your Calendar"
+msgstr ""
+
+#: templates/ignitewoo-event-details-template.php:160
+#@ ignitewoo_events
+msgid "iCal"
+msgstr ""
+
+#: templates/ignitewoo-event-details-template.php:591
+#@ ignitewoo_events
+msgid "Sessions"
+msgstr ""
+
+#: templates/ignitewoo-event-details-template.php:602
+#@ ignitewoo_events
+msgid "Speakers"
+msgstr ""
+
+#: templates/ignitewoo-event-details-template.php:619
+#@ ignitewoo_events
+msgid "Session Organizers"
+msgstr ""
+
+#: templates/ignitewoo-event-details-template.php:662
+#@ ignitewoo_events
+msgid "Session Sponsors"
+msgstr ""
+
+#: templates/ignitewoo-event-details-template.php:706
+#@ ignitewoo_events
+msgid "Session Speakers"
+msgstr ""
+

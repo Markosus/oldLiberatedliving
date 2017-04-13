@@ -1,0 +1,610 @@
+<?php
+/*
+Template Name: recipeupload
+*/
+
+get_header(); ?>
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		<div class="container">
+
+
+<?php
+	session_start();
+	
+
+// inserts recipe name
+if (isset($_SESSION['recipename'])){	
+
+	$query = "INSERT INTO recipes (recipe_name, recipe_category, recipe_subcategory, recipe_main_ingredient)
+	          VALUES('{$_SESSION['recipename']}','{$_SESSION['maincategory']}','{$_SESSION['subcategory']}','{$_SESSION['mainingredient']}')";
+
+	mysql_query($query);
+	$rec_id = mysql_insert_id();
+}
+
+
+// inserts recipe ingredient
+
+			if (isset($_SESSION['name'])){
+		
+				foreach($_SESSION['name'] as $value){
+				
+					$query2 = "INSERT INTO recipe_ingredients (ingredient_name)
+          			VALUES('$value')";
+					mysql_query($query2);
+					//what recipe id are we on? grab id base on recipe name			     	
+					$result= mysql_query("SELECT ingredient_id FROM `recipe_ingredients` WHERE ingredient_name LIKE '$value'"); 
+					while($row = mysql_fetch_array($result)){
+					 $ingredient_id[]= $row['ingredient_id'];
+					 
+					 }	       
+				 }
+			}	 
+
+// inserts and associates ingredient id recipe id the amount, and if available unit
+
+			if (isset($_SESSION['decimalamt'])){
+
+				$counter=0;
+				 foreach($_SESSION['decimalamt'] as $value){
+									 	
+					$query3 = "INSERT INTO recipe_recipeingredients (recipe_id,ingredient_id,amount,unittype)
+          			VALUES('$rec_id','$ingredient_id[$counter]','$value','{$_SESSION['amountunit'][$counter]}')";
+          			
+       				mysql_query($query3);
+				    $counter++; 
+
+				 
+				 }
+
+			}
+
+// inserts and associates step, step instruction to the recipe id.
+
+
+			if (isset($_SESSION['instruct'])){
+
+				 $stepcounter=1;
+				 foreach($_SESSION['instruct'] as $value){
+					
+
+
+					$query4 = "INSERT INTO recipe_instructions (recipe_id,step,step_description)
+          			VALUES('$rec_id','$stepcounter','$value')";
+          			
+					mysql_query($query4);
+				    $stepcounter++; 
+				 
+				 }
+			}
+
+// inserts and associates recipe id to the health concern id.
+
+				 			 
+		if (isset($_SESSION['healthattributes'])){
+				$counter2=0;
+				 		
+				 		foreach ($_SESSION['healthattributes'] as $value){	
+
+						$result2= mysql_query("SELECT health_id FROM `recipe_healthattribute` WHERE healthattributename  LIKE '$value'"); 
+						while($row = mysql_fetch_array($result2)){
+						$healthid[]= $row['health_id'];
+						}
+
+
+				 	
+					$query5 = "INSERT INTO recipe_recipetohealth (recipe_id,health_id)
+          			VALUES('$rec_id','$healthid[$counter2]')";
+       				mysql_query($query5);
+				    $counter2++; 
+
+				 
+				 }
+		}
+
+
+// inserts the extra notes to the recipe if it exists
+
+				 if (!empty($_SESSION['extranotes'])){	
+				
+						$query6 = "INSERT INTO recipe_extranotes (recipe_id,extra_notes)
+		          		VALUES('$rec_id','{$_SESSION['extranotes']}')";
+		          		mysql_query($query6);
+						     
+
+					}
+					
+// clears all the session variables
+
+unset($_SESSION['recipename']);
+unset($_SESSION['name']);
+unset($_SESSION['amt']);
+unset($_SESSION['ingredandamount']);
+unset($_SESSION['instruct']);
+unset($_SESSION['viewtextareabool']);
+unset($_SESSION['ingredandamount']);
+unset($_SESSION['instruct']);
+unset($_SESSION['viewtextareabool']);
+unset($_SESSION['extranotes']);
+unset($_SESSION['maincategory']);
+unset($_SESSION['subcategory']);
+unset($_SESSION['mainingredient']);
+unset($_SESSION['healthattributes']);
+unset($_SESSION['finishedinstructionsbool']);					
+unset($_SESSION['decimalamt']);				 
+				 
+
+
+?>
+
+
+
+	<h2 style="margin-bottom:-15px;">Your Recipe Has been Added to the database.</h2>
+		<h3 >Please Choose any pictures you would like to assosicate with your recipe.</h3>
+	
+<hr />
+
+
+		<a href="/addrecipe">Add another recipe</a><br>
+		<a href="/recipeindex">Recipe Admin Index</a><br>
+		<a href="/reciperesults">Search Or View Recipes</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+
+/*
+Gary George 2013
+http://www.georgewebdesign.co.uk
+@gary_george
+http://youtube.com/user/GeorgeWebDesign
+
+
+To use the below code you just have to change all paths to be relative to your server.
+
+NOTE: you will need a PHP enabled server with GD Support enabled for this to work.
+*/
+
+//profile id
+	$profile_id = 12345;
+
+
+/***********************************************************
+	0 - Remove The Temp image if it exists
+***********************************************************/
+	if (!isset($_POST['x']) && !isset($_FILES['image']['name']) ){
+		//Delete users temp image
+			$temppath = 'images/'.$profile_id.'_temp.jpeg';
+			if (file_exists ($temppath)){ @unlink($temppath); }
+	} 
+
+
+if(isset($_FILES['image']['name'])){	
+	/***********************************************************
+		1 - Upload Original Image To Server
+	***********************************************************/	
+		//Get Name | Size | Temp Location		    
+			$ImageName = $_FILES['image']['name'];
+			$ImageSize = $_FILES['image']['size'];
+			$ImageTempName = $_FILES['image']['tmp_name'];
+		//Get File Ext   
+			$ImageType = @explode('/', $_FILES['image']['type']);
+			$type = $ImageType[1]; //file type	
+		//Set Upload directory    
+			$uploaddir = $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentythirteen/recipeimages';
+			echo $uploaddir;
+		//Set File name	
+			$file_temp_name = $profile_id.'_original.'.md5(time()).'n'.$type; //the temp file name
+			$fullpath = "$uploaddir/".$file_temp_name; // the temp file path
+			$file_name = $profile_id.'_temp.jpeg'; //$profile_id.'_temp.'.$type; // for the final resized image
+			$fullpath_2 = "$uploaddir/".$file_name; //for the final resized image
+		//Move the file to correct location
+			$move = move_uploaded_file($ImageTempName ,$fullpath) ; 
+			chmod($fullpath, 0777);  
+   		//Check for valid uplaod
+			if (!$move) { 
+				die ('File didnt upload');
+			} else { 
+				$imgSrc= '/wp-content/themes/twentythirteen/recipeimages/'.$file_name.'?x='.rand(); // the image to display in crop area
+				$msg= "Upload Complete!";  	//message to page
+				$src = $file_name;	 		//the file name to post from cropping form to the resize		
+			} 
+
+	/***********************************************************
+		2  - Resize The Image To Fit In Cropping Area
+	***********************************************************/		
+			//get the uploaded image size	
+				clearstatcache();				
+				$original_size = getimagesize($fullpath);
+				$original_width = $original_size[0];
+				$original_height = $original_size[1];	
+			// Specify The new size
+				$main_width = 500; // set the width of the image
+				$main_height = $original_height / ($original_width / $main_width);	// this sets the height in ratio									
+			//create new image using correct php func			
+				if($_FILES["image"]["type"] == "image/gif"){
+					$src2 = imagecreatefromgif($fullpath);
+				}elseif($_FILES["image"]["type"] == "image/jpeg" || $_FILES["image"]["type"] == "image/pjpeg"){
+					$src2 = imagecreatefromjpeg($fullpath);
+				}elseif($_FILES["image"]["type"] == "image/png"){ 
+					$src2 = imagecreatefrompng($fullpath);
+				}else{ 
+					$msg .= "There was an error uploading the file. Please upload a .jpg, .gif or .png file. <br />";
+				}
+			//create the new resized image
+				$main = imagecreatetruecolor($main_width,$main_height);
+				imagecopyresampled($main,$src2,0, 0, 0, 0,$main_width,$main_height,$original_width,$original_height);
+			//upload new version
+				$main_temp = $fullpath_2;
+				imagejpeg($main, $main_temp, 90);
+				chmod($main_temp,0777);
+			//free up memory
+				imagedestroy($src2);
+				imagedestroy($main);
+				imagedestroy($fullpath);
+				@ unlink($fullpath); // delete the original upload					
+									
+}//ADD Image 	
+
+	
+
+
+/***********************************************************
+	3- Cropping & Converting The Image To Jpg
+***********************************************************/
+	if ($_POST['x']){
+		
+		//the file type posted
+			$type = $_POST['type'];	
+		//the image src
+			$src = 'recipeimages/'.$_POST['src'];	
+			$finalname = md5(time());	
+		
+		if($type == 'jpg' || $type == 'jpeg' || $type == 'JPG' || $type == 'JPEG'){	
+		
+			//the target dimensions 150x150
+				$targ_w = $targ_h = 150;
+			//quality of the output
+				$jpeg_quality = 90;
+			//create a cropped copy of the image
+				$img_r = imagecreatefromjpeg($src);
+				$dst_r = imagecreatetruecolor( $targ_w, $targ_h );
+				imagecopyresampled($dst_r,$img_r,0,0,$_POST['x'],$_POST['y'],
+				$targ_w,$targ_h,$_POST['w'],$_POST['h']);
+			//save the new cropped version
+				imagejpeg($dst_r, "/wp-content/themes/twentythirteen/recipeimages/".$finalname."n.jpeg", 90); 	
+				 		
+		}else if($type == 'png' || $type == 'PNG'){
+			
+			//the target dimensions 150x150
+				$targ_w = $targ_h = 150;
+			//quality of the output
+				$jpeg_quality = 90;
+			//create a cropped copy of the image
+				$img_r = imagecreatefrompng($src);
+				$dst_r = imagecreatetruecolor( $targ_w, $targ_h );		
+				imagecopyresampled($dst_r,$img_r,0,0,$_POST['x'],$_POST['y'],
+				$targ_w,$targ_h,$_POST['w'],$_POST['h']);
+			//save the new cropped version
+				imagejpeg($dst_r, "/wp-content/themes/twentythirteen/recipeimages/".$finalname."n.jpeg", 90); 	
+							
+		}else if($type == 'gif' || $type == 'GIF'){
+			
+			//the target dimensions 150x150
+				$targ_w = $targ_h = 150;
+			//quality of the output
+				$jpeg_quality = 90;
+			//create a cropped copy of the image
+				$img_r = imagecreatefromgif($src);
+				$dst_r = imagecreatetruecolor( $targ_w, $targ_h );		
+				imagecopyresampled($dst_r,$img_r,0,0,$_POST['x'],$_POST['y'],
+				$targ_w,$targ_h,$_POST['w'],$_POST['h']);
+			//save the new cropped version
+				imagejpeg($dst_r, "/wp-content/themes/twentythirteen/recipeimages/".$finalname."n.jpeg", 90); 	
+			
+		}
+			//free up memory
+				imagedestroy($img_r); // free up memory
+				imagedestroy($dst_r); //free up memory
+				@ unlink($src); // delete the original upload					
+			
+			//return cropped image to page	
+			$displayname ="/wp-content/themes/twentythirteen/recipeimages/".$finalname."n.jpeg";
+															
+	}// post x
+
+
+
+	
+	
+
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>GeorgeWebDesign | PHP Custom Image Crop Tutorial</title>
+
+<style>
+	body{ background-color:#666666; padding:0px; margin:0px;}
+	#formExample{ position:relative; margin:100px auto; width:200px; min-height:200px;}
+	p { font:16px sans-serif; color:#990000;}
+</style>
+
+<script src="/wp-content/themes/twentythirteen/js/jquery.min.js"></script>
+<script src="/wp-content/themes/twentythirteen/js/jquery.Jcrop.min.js"></script>
+<link rel="stylesheet" href="/wp-content/themes/twentythirteen/js/jquery.Jcrop.css" type="text/css" />
+
+
+
+<script>
+ 
+//JCrop Bits
+  $(function(){
+	  
+    $('#jcrop_target').Jcrop({
+      aspectRatio: 1,
+	  setSelect:   [ 200,200,37,49 ],
+      onSelect: updateCoords
+    });
+
+  });
+
+  function updateCoords(c)
+  {
+    $('#x').val(c.x);
+    $('#y').val(c.y);
+    $('#w').val(c.w);
+    $('#h').val(c.h);
+  };
+
+  function checkCoords()
+  {
+    if (parseInt($('#w').val())) return true;
+    alert('Please select a crop region then press submit.');
+    return false;
+  }; 
+//End JCrop Bits <?php $displayname ?>
+
+	function cancelCrop(){
+		//Refresh page				
+		top.location = 'index.php?cancel';
+		return false;
+	}
+
+</script>
+</head>
+
+<body>
+
+<div id="Overlay" style=" width:100%; height:100%; background-color:rgba(0,0,0,.5); border:0px #990000 solid; position:absolute; top:0px; left:0px; z-index:2000; display:none;"></div>
+
+
+<div id="wrapper" style="width:1000px; min-height:600px; position:relative; margin:0px auto; border:1px #444 solid; background-color:#EFEFEF;">
+
+<?php
+
+echo '<h3>Upload An Image to the recipe youre working on. </h3>';
+
+?>
+
+
+
+<form action="<?php the_permalink(); ?>" method="post"  enctype="multipart/form-data">
+
+<p>The image will be cropped to the proper dimensions.</p>
+
+
+<p> Recipe image:</p>
+<label for="file">Browse Files:</label>
+<input type="file" id="image" name="image" />
+
+<br />
+<p>Enter a description for your Recipe:</p>
+<textarea name="description" id="description" cols="45" rows="5"></textarea>
+<br />
+<br />
+<br /><br />
+<input type="submit" value="submit"  />
+</form>
+
+  <?php  if($imgSrc){ //if an image has been uploaded display cropping area?>
+    <script>
+    	$('#Overlay').show();
+		$('#formExample').hide();
+    </script>
+    <div id="CroppingContainer" style="width:800px; max-height:600px; background-color:#FFF; position:relative; overflow:hidden; border:2px #666 solid; margin:50px auto; z-index:2001; padding-bottom:0px;">  
+    
+        <div id="CroppingArea" style="width:500px; max-height:400px; position:relative; overflow:hidden; margin:40px 0px 40px 40px; border:2px #666 solid; float:left;">	
+            <img src="<?php echo $imgSrc; ?>" border="0" id="jcrop_target" style="border:0px #990000 solid; position:relative; margin:0px 0px 0px 0px; padding:0px; " />
+        </div>  
+        <div id="InfoArea" style="width:180px; height:150px; position:relative; overflow:hidden; margin:40px 0px 0px 40px; border:0px #666 solid; float:left;">	
+           <p style="margin:0px; padding:0px; color:#444; font-size:18px;">          
+                <b>Crop Profile Image</b><br /><br />
+                <span style="font-size:14px;">
+                    Using this tool crop / resize your uploaded profile image. <br />
+                    Once you are happy with your profile image then please click save.
+                </span>
+           </p>
+        </div>  
+        <br />
+            <div id="CropImageForm" style="width:100px; height:30px; float:left; margin:10px 0px 0px 40px;" >  
+                 <form action="<?php the_permalink();?>" method="post" onsubmit="return checkCoords();">
+                    <input type="hidden" id="x" name="x" />
+                    <input type="hidden" id="y" name="y" />
+                    <input type="hidden" id="w" name="w" />
+                    <input type="hidden" id="h" name="h" />
+                    <input type="hidden" value="jpeg" name="type" /> <?php // $type ?> 
+                    <input type="hidden" value="<?php echo $imgSrc; ?>" name="src" />
+                    <input type="submit" value="Crop Image" style="width:100px; height:30px;"   />
+                </form>
+
+                 <form action="<?php the_permalink(); ?>" method="POST" onsubmit="return checkCoords();"> 
+				  	<input type="hidden" id="x" name="x" />
+                    <input type="hidden" id="y" name="y" />
+                    <input type="hidden" id="w" name="w" />
+                    <input type="hidden" id="h" name="h" />				
+					<input type="hidden" value="jpeg" name="type" /> <?php // $type ?> 
+                    <input type="hidden" value="<?php echo $imgSrc; ?>" name="src" />			    
+					<input type="submit" value="Crop Image">
+			</form>
+                
+            </div>
+            <div id="CropImageForm2" style="width:100px; height:30px; float:left; margin:10px 0px 0px 40px;" >  
+                 <form action="<?php the_permalink();?>" method="post" onsubmit="return cancelCrop();">
+                    <input type="submit" value="Cancel Crop"  />
+                </form>
+
+
+            </div>        
+
+          
+    
+            
+    </div><!-- CroppingContainer -->
+	<?php } ?>
+ 
+ 
+
+ 
+ 
+ <?php if($displayname) {
+	 ?>
+     
+     <img src="<?php $displayname ?>" style="position:relative; margin:10px auto; width:150px; height:150px;" />
+	 
+ <?php } ?>
+ 
+ 
+    <br /><br />
+</div>
+
+
+
+
+
+
+
+
+
+		
+		</div>	<!-- #container -->
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+<?php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$ImageName = $_FILES['image']['name'];
+$ImageSize = $_FILES['image']['size'];
+$ImageTempName = $_FILES['image']['tmp_name'];
+		//Get File Ext   
+$ImageType = @explode('/', $_FILES['image']['type']);
+$type = $ImageType[1]; //file type	
+		//Set Upload directory    
+$uploaddir = $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentythirteen/recipeimages';	
+echo $uploaddir;
+//Upload script
+  
+//Restrictions on upload The user may only upload .gif or .jpeg files and the file size must be under 20 kb:
+if ((($_FILES["file"]["type"] == "image/gif")
+|| ($_FILES["file"]["type"] == "image/jpeg")
+|| ($_FILES["file"]["type"] == "image/png")
+|| ($_FILES["file"]["type"] == "image/pjpng")
+|| ($_FILES["file"]["type"] == "image/pjpeg"))
+&& ($_FILES["file"]["size"] < 25000000))
+  {
+  if ($_FILES["file"]["error"] > 0)
+    {
+    echo "Return Code: " . $_FILES["file"]["error"] . "<br />";
+    }
+  else
+    {
+    echo "Upload: " . $_FILES["file"]["name"] . "<br />";
+    echo "Type: " . $_FILES["file"]["type"] . "<br />";
+    echo "Size: " . ($_FILES["file"]["size"] / 1024) . " Kb<br />";
+    
+    if (file_exists("$uploaddir" . $_FILES["file"]["name"]))
+      {
+      echo $_FILES["file"]["name"] . "<br /> <h2>File already exists.</h2> ";
+      }
+    else
+      {
+	  //adds the various form info to the data base
+	 //  	$albumname = $_POST['album']; 
+		// $description = $_POST['description']; 
+	 //    $filename = addslashes($_FILES["file"]["name"]);
+			
+		// $insert=mysql_query("INsert into imagename VALUES ('','$albumname','$description','$filename')"); 
+	  
+	  
+	  //this part copies the image to the big image dir
+      move_uploaded_file($_FILES["file"]["tmp_name"],
+      "$uploaddir" . $_FILES["file"]["name"]);
+      echo "Stored in: " . "images Folder" . $_FILES["file"]["name"];
+	  echo '<br />Upload Success';
+	  
+	  //this takes the image from the big dir reizes it and copies it to thumbs
+	  include('SimpleImage.php');
+
+	 
+	
+ 	 $imagebig = new SimpleImage();
+  	 $imagebig->load('$uploaddirbigimage/'.$_FILES["file"]["name"]);
+	 //$imagebig->resize(100,100);
+  	  $imagebig->resizeToWidth(600);
+  	 $imagebig->save('$uploaddirbigimage/'. $_FILES["file"]["name"]);
+	 
+	 	 //  $imagebig = new SimpleImage();
+  // 	 $imagebig->load('$uploaddirbigimage/'.$_FILES["file"]["name"]);
+	 // //$imagebig->resize(100,100);
+  // 	  $imagebig->resizeToWidth(600);
+  // 	 $imagebig->save('../images/bigimage/'. $_FILES["file"]["name"]);
+	 
+	        }
+    }
+  }
+else
+  {
+  echo '<br />Invalid file';
+  }
+
+
+ 
+ }

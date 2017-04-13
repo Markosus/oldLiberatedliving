@@ -1,0 +1,13 @@
+.eme-location-map {
+	background: green;
+	margin-bottom:15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 300px;
+	line-height: 100%;
+}
+
+.eme-location-balloon {
+        color: #FF7146;
+}

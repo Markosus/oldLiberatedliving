@@ -1,0 +1,367 @@
+<?php
+
+
+get_header(); 
+?>
+
+<script src="/wp-content/themes/twentythirteen/js/jquery-1.8.3.js"></script>
+<script src="/wp-content/themes/twentythirteen/js/jquery.autocomplete.min.js"></script>
+<link rel="stylesheet" href="/wp-content/themes/twentythirteen/js/autocompletestyle.css" type="text/css" />
+
+<script src="/wp-content/themes/twentythirteen/js/jquery.asmselect.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+  var ingredientverb = [
+    	<?php  
+
+    	$result= mysql_query("SELECT * FROM `recipes`"); 
+			while($row = mysql_fetch_array($result)){
+			echo "{ value: '".$row['recipe_name']."' },";
+			}
+    	 ?>
+  ];
+  
+  // setup autocomplete function pulling from currencies[] array
+  $('#autocomplete').autocomplete({
+    lookup: ingredientverb,
+    onSelect: function (suggestion) {
+      var thehtml = '<strong>Ingredient Action/Info:</strong> ' + suggestion.value;
+      $('#outputcontent').html(thehtml);
+    }
+  });
+  
+
+});
+</script>	
+
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		<div class="container">
+
+			
+
+		
+
+
+
+
+
+			<div class="recipesearchdiv">
+
+				<form action="<?php the_permalink(); ?>" method="POST"> 
+
+
+								
+					 <input type="text" class="recipesearch" id="autocomplete" name="search" placeholder="search" maxlength="150" >
+					 <input  type="submit"  class="recipesearchbutton" name="submit" value="Search">
+
+					<br>
+
+											<?php 
+											$query = "SELECT * FROM recipe_coursecategory";
+											$result = mysql_query($query);
+											
+											?>
+											
+											<div id="maincategorysearch">			
+											<br>	
+											<select id='category' name="maincategory">
+
+												<option value="">Main Category</option>
+										<?php
+												while($row = mysql_fetch_array($result)){
+													echo '<option value="AND recipe_category LIKE \''.$row['coursename'].'\'">'.$row['coursename'].'</option>';
+												}
+										?>
+											</select>
+											</div>		
+
+
+
+
+											<?php
+											$query = "SELECT *  FROM recipe_mainingredient";
+											$result = mysql_query($query);
+											?>
+												<br>
+												<div id="mainingredientsearch" >
+												<select id="mainingredient" name="mainingredient">
+												<option value="">Main Ingredient</option>
+											<?php
+													while($row = mysql_fetch_array($result)){
+														echo '<option value="AND recipe_main_ingredient LIKE \''.$row['mainingredientname'].'\'">'.$row['mainingredientname'].'</option>';
+															
+													}
+											?>
+											</select>
+											</div>
+											
+
+
+
+											<?php
+											$query = "SELECT *  FROM recipe_dishtypesubcategory";
+											$result = mysql_query($query);
+											?>
+											<div id="subcategorysearch">
+											<br>	
+											<select id="subcategory" name="subcategory">
+											<option value="">Dish Subcategory</option>
+										<?php
+												while($row = mysql_fetch_array($result)){
+													echo '<option value="AND recipe_subcategory LIKE \''.$row['subcategoryname'].'\'">'.$row['subcategoryname'].'</option>';
+												}
+										?>
+											</select>
+											</div>
+
+
+										<br><br><br>
+
+											<!-- this is the main healthform loop -->
+
+											<?php
+											$query = "SELECT *  FROM recipe_healthattribute";
+											$result = mysql_query($query);
+											
+										?>
+											<!-- <form id="healthform"action="./example_results.php" method="post" style="display:none;"> -->
+											<div id="healthform">
+											<select id="health" multiple="multiple" name="health[]" title="Health Considerations">
+								 
+										<?php
+												while($row = mysql_fetch_array($result)){
+														echo '<option value="'.$row['healthattributename'].'">'.$row['healthattributename'].'</option>';
+														
+												}
+										?>
+											</select>
+											</div>
+
+
+
+				</form>
+					
+			</div>
+
+<?php
+
+		if (!empty($_POST['search']))
+		{
+			$searchname = $_POST['search'];
+			$mainingredient = $_POST['mainingredient'];
+			$maincategory = $_POST['maincategory'];
+			$subcategory = $_POST['subcategory'];
+
+			// $searchname = preg_replace("#[^0-9a-z]#i", "", $searchname);
+			
+			// only one of the categories are selected
+
+			$maincategory = stripcslashes($maincategory);
+			$mainingredient = stripcslashes($mainingredient);
+			$subcategory = stripcslashes($subcategory);
+
+			$result = mysql_query("SELECT * FROM `recipes` WHERE recipe_name LIKE '%$searchname%' $maincategory $mainingredient $subcategory") or die("The search could be fulfilled"); 	
+			$count =  mysql_num_rows($result);
+
+			if ($count == 0){
+				echo "there were no results found";
+			}else{	
+
+				while($row = mysql_fetch_array($result))
+				{
+				$recipename = $row['recipe_name'];
+				$output .='<div>'.$recipename.'</div>';
+				}
+			}	
+
+
+
+
+				// if the search box is empty but the submenu is selected	
+		}elseif ((isset($_POST['search']))&& (empty($_POST['search']))&& (!empty($_POST['mainingredient'])) || (!empty($_POST['maincategory'])) || (!empty($_POST['subcategory']))) {
+				
+
+		
+			$mainingredient = $_POST['mainingredient'];
+			$maincategory = $_POST['maincategory'];
+			$subcategory = $_POST['subcategory'];
+
+			
+
+			$maincategory = stripcslashes($maincategory);
+			$mainingredient = stripcslashes($mainingredient);
+			$subcategory = stripcslashes($subcategory);
+			
+
+			$result = mysql_query("SELECT * FROM `recipes` WHERE recipe_id > 0 $maincategory $mainingredient $subcategory") or die("The search could be fulfilled"); 	
+			$count =  mysql_num_rows($result);
+
+			if ($count == 0){
+				echo "there were no results found";
+			}else{
+				while($row = mysql_fetch_array($result))
+				{
+				$recipename = $row['recipe_name'];
+				$output .='<div>'.$recipename.'</div>';
+				}
+
+			}	
+
+
+		}
+
+
+		
+
+
+
+
+		?>
+
+
+	<?php 
+
+		print("$output");
+
+	?>
+
+
+		</div>	<!-- #container -->
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+<script type="text/javascript">
+
+
+	// if (($('select').attr('id'))=='category'){
+
+	// Iterate over each select element
+$('select').each(function () {
+
+ if (($(this).attr('id')) != 'health') { //i add this if to exclude the health attribute
+ 
+ 
+
+    // Cache the number of options
+    var $this = $(this),
+        numberOfOptions = $(this).children('option').length;
+
+    // Hides the select element
+    $this.addClass('s-hidden');
+
+    // Wrap the select element in a div
+    $this.wrap('<div class="select"></div>');
+
+    // Insert a styled div to sit over the top of the hidden select element
+    $this.after('<div class="styledSelect"></div>');
+
+    // Cache the styled div
+    var $styledSelect = $this.next('div.styledSelect');
+
+    // Show the first select option in the styled div
+    $styledSelect.text($this.children('option').eq(0).text());
+
+    // Insert an unordered list after the styled div and also cache the list
+    var $list = $('<ul />', {
+        'class': 'options'
+    }).insertAfter($styledSelect);
+
+    // Insert a list item into the unordered list for each select option
+    for (var i = 0; i < numberOfOptions; i++) {
+        $('<li />', {
+            text: $this.children('option').eq(i).text(),
+            rel: $this.children('option').eq(i).val()
+        }).appendTo($list);
+    }
+
+    // Cache the list items
+    var $listItems = $list.children('li');
+
+    // Show the unordered list when the styled div is clicked (also hides it if the div is clicked again)
+    $styledSelect.click(function (e) {
+        e.stopPropagation();
+        $('div.styledSelect.active').each(function () {
+            $(this).removeClass('active').next('ul.options').hide();
+        });
+        $(this).toggleClass('active').next('ul.options').toggle();
+    });
+
+    // Hides the unordered list when a list item is clicked and updates the styled div to show the selected list item
+    // Updates the select element to have the value of the equivalent option
+    $listItems.click(function (e) {
+        e.stopPropagation();
+        $styledSelect.text($(this).text()).removeClass('active');
+        $this.val($(this).attr('rel'));
+        $list.hide();
+        /* alert($this.val()); Uncomment this for demonstration! */
+    });
+
+    // Hides the unordered list when clicking outside of it
+    $(document).click(function () {
+        $styledSelect.removeClass('active');
+        $list.hide();
+    });
+
+
+} // close the health attribute if
+
+});
+
+    $("ul.options li").click(function () {
+
+        
+
+        console.log($(this).attr('rel'));
+
+        
+
+        if($(this).attr('rel') == '') {
+
+            $(this).parent().prev().removeClass('selectedlink');
+
+        }
+
+        else {
+
+            $(this).parent().prev().addClass('selectedlink');
+
+        }
+
+                     
+
+    });
+
+</script>
+
+<script type="text/javascript">
+
+$(document).ready(function()
+{
+    $("select[multiple]").asmSelect({
+        addItemTarget: 'bottom',
+        animate: true,
+        highlight: true,
+        sortable: false
+    });
+    
+    $("select[multiple]").change(function(){
+        var noOfItemsSelected = $("select[multiple] option:selected").length;
+        if(noOfItemsSelected === 3){
+            $("select[class=asmSelect]").prop('disabled', true);
+
+        }else{
+            $("select[class=asmSelect]").prop('disabled', false);
+           
+        }        
+    });
+}); 
+
+	</script>
+
+<?php get_footer(); ?>
+

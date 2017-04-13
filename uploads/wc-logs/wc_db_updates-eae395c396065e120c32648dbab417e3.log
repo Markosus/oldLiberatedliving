@@ -1,0 +1,49 @@
+07-13-2016 @ 14:15:47 - Queuing 2.4.0 - wc_update_240_options
+07-13-2016 @ 14:15:47 - Queuing 2.4.0 - wc_update_240_shipping_methods
+07-13-2016 @ 14:15:47 - Queuing 2.4.0 - wc_update_240_api_keys
+07-13-2016 @ 14:15:47 - Queuing 2.4.0 - wc_update_240_webhooks
+07-13-2016 @ 14:15:47 - Queuing 2.4.0 - wc_update_240_refunds
+07-13-2016 @ 14:15:47 - Queuing 2.4.0 - wc_update_240_db_version
+07-13-2016 @ 14:15:47 - Queuing 2.4.1 - wc_update_241_variations
+07-13-2016 @ 14:15:47 - Queuing 2.4.1 - wc_update_241_db_version
+07-13-2016 @ 14:15:47 - Queuing 2.5.0 - wc_update_250_currency
+07-13-2016 @ 14:15:47 - Queuing 2.5.0 - wc_update_250_db_version
+07-13-2016 @ 14:15:47 - Queuing 2.6.0 - wc_update_260_options
+07-13-2016 @ 14:15:47 - Queuing 2.6.0 - wc_update_260_termmeta
+07-13-2016 @ 14:15:47 - Queuing 2.6.0 - wc_update_260_zones
+07-13-2016 @ 14:15:47 - Queuing 2.6.0 - wc_update_260_zone_methods
+07-13-2016 @ 14:15:47 - Queuing 2.6.0 - wc_update_260_refunds
+07-13-2016 @ 14:15:47 - Queuing 2.6.0 - wc_update_260_db_version
+07-13-2016 @ 14:15:48 - Running wc_update_240_options callback
+07-13-2016 @ 14:15:48 - Finished wc_update_240_options callback
+07-13-2016 @ 14:15:48 - Running wc_update_240_shipping_methods callback
+07-13-2016 @ 14:15:48 - Finished wc_update_240_shipping_methods callback
+07-13-2016 @ 14:15:48 - Running wc_update_240_api_keys callback
+07-13-2016 @ 14:15:48 - Finished wc_update_240_api_keys callback
+07-13-2016 @ 14:15:48 - Running wc_update_240_webhooks callback
+07-13-2016 @ 14:15:48 - Finished wc_update_240_webhooks callback
+07-13-2016 @ 14:15:48 - Running wc_update_240_refunds callback
+07-13-2016 @ 14:15:48 - Finished wc_update_240_refunds callback
+07-13-2016 @ 14:15:48 - Running wc_update_240_db_version callback
+07-13-2016 @ 14:15:48 - Finished wc_update_240_db_version callback
+07-13-2016 @ 14:15:48 - Running wc_update_241_variations callback
+07-13-2016 @ 14:15:48 - Finished wc_update_241_variations callback
+07-13-2016 @ 14:15:48 - Running wc_update_241_db_version callback
+07-13-2016 @ 14:15:48 - Finished wc_update_241_db_version callback
+07-13-2016 @ 14:15:48 - Running wc_update_250_currency callback
+07-13-2016 @ 14:15:48 - Finished wc_update_250_currency callback
+07-13-2016 @ 14:15:48 - Running wc_update_250_db_version callback
+07-13-2016 @ 14:15:48 - Finished wc_update_250_db_version callback
+07-13-2016 @ 14:15:48 - Running wc_update_260_options callback
+07-13-2016 @ 14:15:48 - Finished wc_update_260_options callback
+07-13-2016 @ 14:15:48 - Running wc_update_260_termmeta callback
+07-13-2016 @ 14:15:48 - Finished wc_update_260_termmeta callback
+07-13-2016 @ 14:15:48 - Running wc_update_260_zones callback
+07-13-2016 @ 14:15:48 - Finished wc_update_260_zones callback
+07-13-2016 @ 14:15:48 - Running wc_update_260_zone_methods callback
+07-13-2016 @ 14:15:48 - Finished wc_update_260_zone_methods callback
+07-13-2016 @ 14:15:48 - Running wc_update_260_refunds callback
+07-13-2016 @ 14:15:48 - Finished wc_update_260_refunds callback
+07-13-2016 @ 14:15:48 - Running wc_update_260_db_version callback
+07-13-2016 @ 14:15:48 - Finished wc_update_260_db_version callback
+07-13-2016 @ 14:15:48 - Data update complete

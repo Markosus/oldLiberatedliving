@@ -1,0 +1,25 @@
+<div class="row">
+                
+<div class="col-md-4" >
+
+
+#_MAP
+
+
+
+</div>
+
+<div class="col-md-8 test" style="text-align:left;" >
+<h2>#_EVENTNAME  in #_TOWN</h2>
+<h3 style="margin-top:-30px;">#j #M #Y - #H:#i</h3>
+							<hr />
+                            <p>#_NOTES
+                              
+                            </p>
+                              <p>
+                             
+                            </p>
+                            
+                        </div>
+                    </div>
+                

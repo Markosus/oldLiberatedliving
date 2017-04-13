@@ -1,0 +1,666 @@
+.recipeunit {
+ width: 400px;
+}
+
+.recipename {
+ width: 400px;
+}
+
+.recipedescription {
+ width: 400px;
+}
+
+#linkedrecipe {
+ width: 400px;
+} 
+
+
+
+
+
+.addrecipeamount {
+ width: 80px;
+} 
+
+.recipeunit {
+ width: 100px;
+} 
+
+.autocompleteingredient {
+ width: 200px;
+} 
+
+.autocomplete {
+ width: 150px;
+} 
+
+
+.ingredient input {
+	display: inline-block;
+	float: left;
+	margin-bottom: 0px;
+
+}
+
+.ingredient p {
+	display: inline-block;
+	float: left;
+	
+}
+
+
+#entirecategoryform table {
+	line-height: normal;
+}
+
+#entirecategoryform input {
+	margin-right: 0px;	
+	margin-left: 0px;
+	margin-right: 10px;
+	
+	
+}
+
+.recipeexample {
+	font-size: 25px;
+	max-width: 675px;
+	padding: 0px;
+}
+
+.recipeexample td {
+	padding-left: 20px;
+}
+
+.recipeexample .autocompleteingredient {
+	width: 120px;
+
+}
+
+.addrecipeerror {
+
+	border: 1px solid red;
+	padding: 7px;
+	margin-bottom: 10px;
+	max-width: 700px;
+	display:none;
+}
+
+
+/*
+---------------------------------- Modify recipe ------------------------------------*/
+#modifyrecipe table {
+	line-height: normal;
+}
+
+#modifyrecipe input {
+	margin-right: 0px;	
+	margin-left: 0px;
+	margin-right: 10px;
+	
+	
+}
+
+
+/*
+---------------------------------- Mealplan ------------------------------------*/
+#mealplanwrap {
+  
+/*background-color: #FFA;*/
+width:100%;
+display: inline-block;
+text-align: center;
+float: left;
+}
+
+#mealplannamecontainter {
+text-align: center;
+	width: 500px;
+	height: 150px;
+	/*border:1px solid green;*/
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+
+#mondaymealplancontainter,#tuesdaymealplancontainter,#wednesdaymealplancontainter,#thursdaymealplancontainter,
+#fridaymealplancontainter,#saturdaymealplancontainter,#sundaymealplancontainter {
+text-align: center;
+	width: 500px;
+	height: 150px;
+	border:1px solid green;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+#mondaysortable,#tuesdaysortable,#wednesdaysortable,#thursdaysortable,
+#fridaysortable,#saturdaysortable,#sundaysortable{
+width: 500px;
+background-color: grey;
+height: 148px;
+
+}
+
+
+
+
+
+#labelcontainer{
+width: 101px;
+background-color: white;
+float: left;
+
+
+}
+
+#label {
+	border-bottom: 1px solid white;
+	background-color: orange;
+	width: 100px;
+	height: 37px;
+	float: left;
+	clear: both;
+	text-align: center;
+	border-bottom: 1px solid white;
+	padding: 4px;
+}
+
+
+
+#labellast {
+	background-color: orange;
+	width: 100px;
+	height: 37px;
+	float: left;
+	clear: both;
+	text-align: center;
+	padding: 4px;
+
+}
+
+.item {
+	background-color: red;
+	border-bottom: 1px solid white;
+	height: 37px;
+	width: 399px;
+	float: left;
+	text-align: center;
+
+}
+
+.itemlast {
+	background-color: red;
+	height: 37px;
+	width: 275px;
+	float: left;
+	text-align: center;
+}
+
+.ui-state-highlight {
+
+}
+
+#mondaymealplancontainter.border {
+
+	border:1px solid red;
+}
+
+.id {
+	display: none;
+}
+
+#mealplanwrap table {
+	border-bottom: none;
+	border-top: none;
+}
+
+.tableclientname td {
+	font-size: 25px;
+	padding-left: 20px;
+	border-bottom: none;
+	border-top: none;
+}
+
+.tableclientname td input {
+	width:270px;
+
+
+}
+
+.tablelabel {
+	width: 400px:
+}
+
+.recipeexample td {
+	font-size: 18px;
+	max-width: 675px;
+	padding: 0px;
+}
+
+
+#ajaxresults {
+
+}
+
+.searchresultscontainer {
+  position: fixed;
+  bottom: 0;
+  width:inherit;
+  max-width:1170px; 
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  z-index: 1;
+}
+
+#reciperesult {
+width: 215px;
+height: 75px;
+line-height: 20px;
+overflow: hidden;
+
+ -o-transition-property: none !important;
+ -moz-transition-property: none !important;
+ -ms-transition-property: none !important;
+ -webkit-transition-property: none !important;
+ transition-property: none !important;
+
+}
+
+#reciperesult:hover {
+width: 215px;
+height: 75px;
+
+ -o-transition-property: none !important;
+ -moz-transition-property: none !important;
+ -ms-transition-property: none !important;
+ -webkit-transition-property: none !important;
+ transition-property: none !important;
+}
+
+#reciperesult img {
+float: left;
+height: 75px;
+width: 75px;
+padding-right: 5px;
+
+}
+
+.name {
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+
+
+
+#ajaxresults {
+
+
+
+
+}
+
+
+
+
+#mealplansearchdisplay {
+
+min-width: 330px;  
+width:40%;
+/*background-color: green;*/
+min-height: 500px;
+float: left;
+}
+
+
+
+
+
+
+#cleared {
+  clear: both;
+}
+
+.mealplan .recipesearch {
+	margin-left: 0px;
+	width: 170px;
+	margin-top: 20px;
+}
+
+
+
+
+ /*this targets ie only. Wierd 1 pixel off correction*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {   
+		   .recipesearchbutton 
+		{
+			
+			
+			top: -5px; 
+			 	
+		}   
+ } 
+
+.mealplanhealthtable {
+	font-size: 20px;
+}
+
+
+
+select::-ms-expand { /* for IE 11 */
+    display: none;
+}
+
+
+.s-hidden {
+    visibility:hidden;
+    padding-right:10px;
+}
+.select {
+    cursor:pointer;
+    display:inline-block;
+    position:relative;
+    font-family:Helvetica45Light, "Book Antiqua", Palatino, serif;
+	font-size: 15px;
+	text-align: center;
+	font-weight: normal;
+    color:black;
+    width: 165px;
+    height: 35px;
+    line-height: 35px;
+    margin-top: -30px;
+ 	
+
+    
+}
+.styledSelect {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color:white;
+    padding:0 10px;
+    font-weight:bold;
+ 	border: 1px solid #b9b9b9;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+
+	background: url('images/arrowsearch.png')  no-repeat;
+    background-position: right 7px top 6px;  
+
+
+}
+
+.mealplan button,  .mealplan
+input[type="submit"],  .mealplan
+input[type="button"], .mealplan
+input[type="reset"] {
+	background: #d02626; 
+	border-bottom: none;
+	color: #fff;
+	display: inline-block;
+	padding: 11px 20px 10px;
+	text-decoration: none;
+	border: 1px solid #8c0000;
+	position: relative;
+
+ -ms-transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  transition: all .6s ease;
+
+}
+
+ .mealplan button:hover, .mealplan
+button:focus, .mealplan
+input[type="submit"]:hover, .mealplan
+input[type="button"]:hover, .mealplan
+input[type="reset"]:hover, .mealplan
+input[type="submit"]:focus, .mealplan
+input[type="button"]:focus, .mealplan
+input[type="reset"]:focus {
+	background: #e05050; 
+	border: none;
+	border-bottom: none;
+	color: #fff;
+	display: inline-block;
+	padding: 11px 20px 10px;
+	text-decoration: none;
+	border: 1px solid #8c0000;
+
+
+	
+}
+
+}
+.styledSelect:active, .styledSelect.active {
+    background-color:blue;
+}
+.options {
+    display:none;
+    position:absolute;
+    top:0px;
+    right:0;
+    left:0;
+    z-index:999;
+    margin:0 0;
+    padding:0 0;
+    list-style:none;
+    border:1px solid #ccc;
+    background-color:white;
+    -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+
+
+
+
+}
+.mealplan li {
+    padding:0 6px;
+    margin:0 0;
+    padding:0 10px;
+}
+.mealplan li:hover {
+    font-weight: bold;
+    color:#06466a
+}
+
+.mealplan ul{
+	border: 1px solid #2192d3;
+
+    border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+
+    box-shadow: 0 0 10px #2192d3 inset;
+    box-shadow: 0 0 3px rgba(81, 203, 238, 1);
+	border: 1px solid rgba(81, 203, 238, 1);
+
+
+
+}
+
+.selectedlink {
+
+	border: 1px solid #2192d3;
+    box-shadow: 0 0 3px rgba(81, 203, 238, 1);
+	border: 1px solid rgba(81, 203, 238, 1);
+	color: #06466a;
+}
+
+
+
+#searchhealthbutton {
+	webkit-appearance: none;  /*Removes default chrome and safari style*/
+     -moz-appearance: none; /* Removes Default Firefox style*/
+    background: url('images/arrowsearch.png')  no-repeat;
+    background-position: right 7px top 6px;   
+	min-width: 165px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #b9b9b9;
+    box-shadow: 0 0 10px #E8E8E8 inset;
+	padding: 0 30px 0 20px;
+	cursor: pointer;
+	
+	font-family:Helvetica45Light, "Book Antiqua", Palatino, serif;
+	font-size: 15px;
+	font-weight: bold;
+	color:black;
+
+	margin-right: 0px;
+	margin-top: 0px;
+	text-align: center;
+
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+}
+
+#searchhealthbutton:focus {
+	border: 1px solid #2192d3;
+	box-shadow: 0 0 3px rgba(81, 203, 238, 1);
+	border: 1px solid rgba(81, 203, 238, 1);
+}
+
+#slidingDiv {
+	
+	max-width: 600px;
+
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+
+	border: 1px solid #2192d3;
+	box-shadow: 0 0 3px rgba(81, 203, 238, 1);
+	border: 1px solid rgba(81, 203, 238, 1);
+	
+
+
+	padding:20px;
+	margin-top:10px;
+   	
+    display: inline-block;
+ 	margin-left: auto;
+    margin-right: auto;
+  	padding-bottom: 50px;
+   	display:none;
+  
+}
+
+
+#hideshowdiv {
+	width: 170px;
+	height: 30px;
+	float: left;
+	padding-left: 65px;
+	font-family:Helvetica45Light, "Book Antiqua", Palatino, serif;
+	font-size: 15px;
+
+
+ }
+
+.show_hide {
+border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+
+}
+
+/*
+--------------------------- mealplan view -----------------------------*/
+
+.tftable {
+	font-size:25px;
+	color:#333333;
+	width:100%;
+	border-width: 3px;
+	border-color: #729ea5;
+	border-collapse: collapse;
+}
+
+.tftable th {
+	font-family:Helvetica45Light, "Book Antiqua", Palatino, serif;
+	font-size:22px;
+	background-color:#0c6f69;
+	border-width: 3px;
+	padding: 9px;
+	border-style: solid;
+	border-color: white;
+	text-align:center;
+	color: white;
+	font-weight: bold;
+	height: 80px;
+
+}
+
+.tftable tr {
+	background-color:#8F8F8F;
+	color:white;
+	line-height: 25px;
+
+}
+
+.tftable td:hover {
+	background-color:#15BD42;
+	color:white;
+
+}
+
+.tftable td {
+	font-size:25px;
+	border-width: 3px;
+	padding: 8px;
+	border-style: solid;
+	border-color: white;
+	text-align: center;
+}
+
+.tftable a:link {
+	color:white;
+
+}
+
+.tftable a:visited  {
+	color:white;
+
+}
+
+
+.modal-dialog {
+	width: 825px;
+}
+
+
+
+
+
+.emailtoclienttable td {
+	border-top: none;
+	text-align: center;
+	
+}
+
+.emailtoclientinput {
+	width: 350px;
+}
+
+.emailtoclienttable {
+	font-size: 25px;
+	border-top: none;
+	border-bottom: none;
+}
+
+.btn-copy {
+	width: 200px;
+}
